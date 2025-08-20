@@ -67,7 +67,7 @@ coverage.xml
 # Machine Learning & AI Models
 # ================================
 
-# Pre-trained models and checkpoints
+# Pre-trained models and checkpoints (large files)
 *.pth
 *.pkl
 *.joblib
@@ -78,11 +78,20 @@ coverage.xml
 *.tflite
 *.bin
 *.safetensors
+*.ckpt
+*.weights
+*.model
+
+# Model directories and caches
 pretrained_models/
 checkpoints/
 models/
-*.model
-*.weights
+model_cache/
+models--*/
+snapshots/
+.cache/
+hf_cache/
+tmp/spkrec/
 
 # Hugging Face cache
 hf_cache/
