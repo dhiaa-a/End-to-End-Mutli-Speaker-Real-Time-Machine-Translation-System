@@ -1,0 +1,543 @@
+{
+  "metadata": {
+    "audio_file": "data/input/female_1_with_cleaned.flac",
+    "reference_length": 35,
+    "hypothesis_length": 28,
+    "domain": "literary_academic",
+    "speaker_gender": "female",
+    "confidence_level": 0.6
+  },
+  "texts": {
+    "reference": "it seemed evident that a mysterious and probably occult science which was to surgery what alchemy was to chemistry had chiselled his flesh evidently at a very tender age and manufactured his countenance with premeditation",
+    "hypothesis": "seemed that a mysterious and probably a science was to surgery without us chemistry had just his flesh evidently at a very tender age and manufactured his countenance.",
+    "normalized_reference": "it seemed evident that a mysterious and probably occult science which was to surgery what alchemy was to chemistry had chiselled his flesh evidently at a very tender age and manufactured his countenance with premeditation",
+    "normalized_hypothesis": "seemed that a mysterious and probably a science was to surgery without us chemistry had just his flesh evidently at a very tender age and manufactured his countenance"
+  },
+  "asr_details": {
+    "full_text": "seemed that a mysterious and probably a science was to surgery without us chemistry had just his flesh evidently at a very tender age and manufactured his countenance.",
+    "words": [
+      {
+        "word": "seemed",
+        "start_time": 0.0,
+        "end_time": 0.5,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "that",
+        "start_time": 0.5,
+        "end_time": 1.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "a",
+        "start_time": 1.0,
+        "end_time": 1.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "mysterious",
+        "start_time": 1.5,
+        "end_time": 2.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "and",
+        "start_time": 2.0,
+        "end_time": 2.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "probably",
+        "start_time": 2.5,
+        "end_time": 3.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "a",
+        "start_time": 3.0,
+        "end_time": 3.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "science",
+        "start_time": 3.5,
+        "end_time": 4.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "was",
+        "start_time": 4.0,
+        "end_time": 4.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "to",
+        "start_time": 4.5,
+        "end_time": 5.0,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "surgery",
+        "start_time": 5.0,
+        "end_time": 5.5,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "without",
+        "start_time": 5.5,
+        "end_time": 6.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "us",
+        "start_time": 6.0,
+        "end_time": 6.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "chemistry",
+        "start_time": 6.5,
+        "end_time": 7.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "had",
+        "start_time": 7.0,
+        "end_time": 7.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "just",
+        "start_time": 7.5,
+        "end_time": 8.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "his",
+        "start_time": 8.0,
+        "end_time": 8.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "flesh",
+        "start_time": 8.5,
+        "end_time": 9.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "evidently",
+        "start_time": 9.0,
+        "end_time": 9.5,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "at",
+        "start_time": 9.5,
+        "end_time": 10.0,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "a",
+        "start_time": 10.0,
+        "end_time": 10.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "very",
+        "start_time": 10.5,
+        "end_time": 11.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "tender",
+        "start_time": 11.0,
+        "end_time": 11.5,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "age",
+        "start_time": 11.5,
+        "end_time": 12.0,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "and",
+        "start_time": 12.0,
+        "end_time": 12.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "manufactured",
+        "start_time": 12.5,
+        "end_time": 13.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "his",
+        "start_time": 13.0,
+        "end_time": 13.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "countenance.",
+        "start_time": 13.5,
+        "end_time": 14.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      }
+    ],
+    "segments": []
+  },
+  "error_analysis": {
+    "missing_words": {
+      "content_words": [
+        "evident",
+        "chiselled",
+        "premeditation",
+        "occult",
+        "alchemy"
+      ],
+      "function_words": [
+        "which",
+        "with",
+        "what",
+        "it"
+      ],
+      "short_words": [],
+      "numbers": []
+    },
+    "extra_words": {
+      "content_words": [
+        "just",
+        "without"
+      ],
+      "function_words": [],
+      "short_words": [
+        "us"
+      ],
+      "numbers": []
+    },
+    "common_words": [
+      "his",
+      "age",
+      "at",
+      "tender",
+      "and",
+      "science",
+      "a",
+      "evidently",
+      "was",
+      "mysterious",
+      "countenance",
+      "had",
+      "manufactured",
+      "that",
+      "to",
+      "flesh",
+      "very",
+      "chemistry",
+      "surgery",
+      "seemed",
+      "probably"
+    ],
+    "substitution_candidates": [
+      {
+        "reference": "a",
+        "hypothesis": "and",
+        "position": 4,
+        "similarity_type": "phonetic"
+      },
+      {
+        "reference": "and",
+        "hypothesis": "a",
+        "position": 6,
+        "similarity_type": "phonetic"
+      },
+      {
+        "reference": "at",
+        "hypothesis": "and",
+        "position": 24,
+        "similarity_type": "phonetic"
+      }
+    ],
+    "missing_patterns": [
+      {
+        "pattern": "analogy pattern",
+        "example": "alchemy was to chemistry what astrology was to astronomy",
+        "found_in_reference": true,
+        "found_in_hypothesis": false
+      },
+      {
+        "pattern": "observation pattern",
+        "example": "it seemed evident that",
+        "found_in_reference": true,
+        "found_in_hypothesis": false
+      },
+      {
+        "pattern": "manner/instrument",
+        "example": "with premeditation",
+        "found_in_reference": true,
+        "found_in_hypothesis": false
+      }
+    ]
+  },
+  "correction_opportunities": [
+    {
+      "type": "function_word_insertion",
+      "priority": "high",
+      "target_words": [
+        "which",
+        "with",
+        "what",
+        "it"
+      ],
+      "strategy": "grammar_based_insertion",
+      "confidence": 0.8
+    },
+    {
+      "type": "content_word_recovery",
+      "priority": "high",
+      "missing_words": [
+        "evident",
+        "chiselled",
+        "premeditation",
+        "occult",
+        "alchemy"
+      ],
+      "uncertain_positions": [
+        {
+          "word": "a",
+          "start_time": 1.0,
+          "end_time": 1.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "and",
+          "start_time": 2.0,
+          "end_time": 2.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "a",
+          "start_time": 3.0,
+          "end_time": 3.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "was",
+          "start_time": 4.0,
+          "end_time": 4.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "to",
+          "start_time": 4.5,
+          "end_time": 5.0,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "us",
+          "start_time": 6.0,
+          "end_time": 6.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "had",
+          "start_time": 7.0,
+          "end_time": 7.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "his",
+          "start_time": 8.0,
+          "end_time": 8.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "at",
+          "start_time": 9.5,
+          "end_time": 10.0,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "a",
+          "start_time": 10.0,
+          "end_time": 10.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "age",
+          "start_time": 11.5,
+          "end_time": 12.0,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "and",
+          "start_time": 12.0,
+          "end_time": 12.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "his",
+          "start_time": 13.0,
+          "end_time": 13.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        }
+      ],
+      "strategy": "domain_vocabulary_substitution",
+      "confidence": 0.6
+    },
+    {
+      "type": "pattern_completion",
+      "priority": "medium",
+      "missing_patterns": [
+        {
+          "pattern": "analogy pattern",
+          "example": "alchemy was to chemistry what astrology was to astronomy",
+          "found_in_reference": true,
+          "found_in_hypothesis": false
+        },
+        {
+          "pattern": "observation pattern",
+          "example": "it seemed evident that",
+          "found_in_reference": true,
+          "found_in_hypothesis": false
+        },
+        {
+          "pattern": "manner/instrument",
+          "example": "with premeditation",
+          "found_in_reference": true,
+          "found_in_hypothesis": false
+        }
+      ],
+      "strategy": "template_matching",
+      "confidence": 0.7
+    }
+  ],
+  "domain_context": {
+    "patterns": [
+      {
+        "pattern": "(\\w+) was to (\\w+) what (\\w+) was to (\\w+)",
+        "description": "analogy pattern",
+        "example": "alchemy was to chemistry what astrology was to astronomy"
+      },
+      {
+        "pattern": "it seemed (\\w+) that",
+        "description": "observation pattern",
+        "example": "it seemed evident that"
+      },
+      {
+        "pattern": "had (\\w+) his (\\w+)",
+        "description": "possession pattern",
+        "example": "had chiselled his flesh"
+      },
+      {
+        "pattern": "at a very (\\w+) age",
+        "description": "age description",
+        "example": "at a very tender age"
+      },
+      {
+        "pattern": "with (\\w+)",
+        "description": "manner/instrument",
+        "example": "with premeditation"
+      }
+    ],
+    "function_words": {
+      "articles": [
+        "the",
+        "a",
+        "an"
+      ],
+      "prepositions": [
+        "in",
+        "on",
+        "at",
+        "to",
+        "for",
+        "of",
+        "with",
+        "from",
+        "by"
+      ],
+      "conjunctions": [
+        "and",
+        "or",
+        "but",
+        "so",
+        "yet"
+      ],
+      "pronouns": [
+        "it",
+        "he",
+        "she",
+        "they",
+        "which",
+        "that",
+        "what"
+      ],
+      "auxiliary": [
+        "was",
+        "were",
+        "had",
+        "has",
+        "have",
+        "is",
+        "are"
+      ]
+    },
+    "vocabulary_hints": [
+      "evident",
+      "chemistry",
+      "chiselled",
+      "surgery",
+      "probably",
+      "manufactured",
+      "premeditation",
+      "science",
+      "alchemy",
+      "evidently",
+      "mysterious",
+      "countenance"
+    ]
+  }
+}

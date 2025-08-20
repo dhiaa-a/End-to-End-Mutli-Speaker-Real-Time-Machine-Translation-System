@@ -1,0 +1,34 @@
+REAL VOCAL OVERLAP ANALYSIS REPORT
+==================================================
+
+Audio File: data/input/mixed_audio_clean.flac
+Total Duration: 19.11 seconds
+Analysis Method: Frequency-based voice activity detection
+
+VOICE ACTIVITY BREAKDOWN:
+------------------------------
+Male voice active:    9.63s
+Female voice active:  8.99s
+True overlap:         7.10s
+
+OVERLAP STATISTICS:
+------------------------------
+Overlap % of total audio:  37.1%
+Overlap % of speech time:  61.7%
+
+ALGORITHM COMPARISON:
+------------------------------
+Algorithm gentle cleaning: 14.1%
+Actual overlap detected:   37.1%
+Difference:                23.0%
+
+FREQUENCY RANGES ANALYZED:
+------------------------------
+Male fundamental:   80-180 Hz
+Female fundamental: 165-265 Hz
+Male formants:      300-1200 Hz
+Female formants:    400-1600 Hz
+
+Generated Files:
+- Voice overlap visualization: voice_overlap_analysis.png
+- This report: voice_overlap_report.txt

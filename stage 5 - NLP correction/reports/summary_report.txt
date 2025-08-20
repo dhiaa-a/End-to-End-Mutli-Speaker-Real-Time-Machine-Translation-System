@@ -1,0 +1,28 @@
+ASR CORRECTION SYSTEM - SUMMARY REPORT
+==================================================
+Generated: 2025-07-21 08:20:55
+
+OVERALL PERFORMANCE
+------------------------------
+Total Test Cases: 6
+Successful Corrections: 0 (0.0%)
+
+AVERAGE METRICS
+------------------------------
+Initial WER: 0.964
+Corrected WER: 0.964
+WER Improvement: 0.000
+Word Recovery Rate: 0.00%
+Processing Time: 0.0ms per case
+
+ERROR SEVERITY DISTRIBUTION
+------------------------------
+Low: 1 (16.7%)
+Medium: 4 (66.7%)
+High: 0 (0.0%)
+Catastrophic: 1 (16.7%)
+
+CORRECTION METHOD USAGE
+------------------------------
+Pattern: 1 (16.7%)
+Neural: 5 (83.3%)

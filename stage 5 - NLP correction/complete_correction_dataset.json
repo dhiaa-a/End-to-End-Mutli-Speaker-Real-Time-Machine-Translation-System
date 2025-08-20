@@ -1,0 +1,2762 @@
+{
+  "dataset_info": {
+    "description": "ASR Error Correction Dataset",
+    "total_files": 6,
+    "domain": "literary_academic",
+    "language": "english"
+  },
+  "data": [
+    {
+      "metadata": {
+        "audio_file": "data/input/female_1_with_cleaned.flac",
+        "reference_length": 35,
+        "hypothesis_length": 28,
+        "domain": "literary_academic",
+        "speaker_gender": "female",
+        "confidence_level": 0.6
+      },
+      "texts": {
+        "reference": "it seemed evident that a mysterious and probably occult science which was to surgery what alchemy was to chemistry had chiselled his flesh evidently at a very tender age and manufactured his countenance with premeditation",
+        "hypothesis": "seemed that a mysterious and probably a science was to surgery without us chemistry had just his flesh evidently at a very tender age and manufactured his countenance.",
+        "normalized_reference": "it seemed evident that a mysterious and probably occult science which was to surgery what alchemy was to chemistry had chiselled his flesh evidently at a very tender age and manufactured his countenance with premeditation",
+        "normalized_hypothesis": "seemed that a mysterious and probably a science was to surgery without us chemistry had just his flesh evidently at a very tender age and manufactured his countenance"
+      },
+      "asr_details": {
+        "full_text": "seemed that a mysterious and probably a science was to surgery without us chemistry had just his flesh evidently at a very tender age and manufactured his countenance.",
+        "words": [
+          {
+            "word": "seemed",
+            "start_time": 0.0,
+            "end_time": 0.5,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "that",
+            "start_time": 0.5,
+            "end_time": 1.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "a",
+            "start_time": 1.0,
+            "end_time": 1.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "mysterious",
+            "start_time": 1.5,
+            "end_time": 2.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "and",
+            "start_time": 2.0,
+            "end_time": 2.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "probably",
+            "start_time": 2.5,
+            "end_time": 3.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "a",
+            "start_time": 3.0,
+            "end_time": 3.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "science",
+            "start_time": 3.5,
+            "end_time": 4.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "was",
+            "start_time": 4.0,
+            "end_time": 4.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "to",
+            "start_time": 4.5,
+            "end_time": 5.0,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "surgery",
+            "start_time": 5.0,
+            "end_time": 5.5,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "without",
+            "start_time": 5.5,
+            "end_time": 6.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "us",
+            "start_time": 6.0,
+            "end_time": 6.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "chemistry",
+            "start_time": 6.5,
+            "end_time": 7.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "had",
+            "start_time": 7.0,
+            "end_time": 7.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "just",
+            "start_time": 7.5,
+            "end_time": 8.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "his",
+            "start_time": 8.0,
+            "end_time": 8.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "flesh",
+            "start_time": 8.5,
+            "end_time": 9.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "evidently",
+            "start_time": 9.0,
+            "end_time": 9.5,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "at",
+            "start_time": 9.5,
+            "end_time": 10.0,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "a",
+            "start_time": 10.0,
+            "end_time": 10.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "very",
+            "start_time": 10.5,
+            "end_time": 11.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "tender",
+            "start_time": 11.0,
+            "end_time": 11.5,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "age",
+            "start_time": 11.5,
+            "end_time": 12.0,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "and",
+            "start_time": 12.0,
+            "end_time": 12.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "manufactured",
+            "start_time": 12.5,
+            "end_time": 13.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "his",
+            "start_time": 13.0,
+            "end_time": 13.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "countenance.",
+            "start_time": 13.5,
+            "end_time": 14.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          }
+        ],
+        "segments": []
+      },
+      "error_analysis": {
+        "missing_words": {
+          "content_words": [
+            "evident",
+            "chiselled",
+            "premeditation",
+            "occult",
+            "alchemy"
+          ],
+          "function_words": [
+            "which",
+            "with",
+            "what",
+            "it"
+          ],
+          "short_words": [],
+          "numbers": []
+        },
+        "extra_words": {
+          "content_words": [
+            "just",
+            "without"
+          ],
+          "function_words": [],
+          "short_words": [
+            "us"
+          ],
+          "numbers": []
+        },
+        "common_words": [
+          "his",
+          "age",
+          "at",
+          "tender",
+          "and",
+          "science",
+          "a",
+          "evidently",
+          "was",
+          "mysterious",
+          "countenance",
+          "had",
+          "manufactured",
+          "that",
+          "to",
+          "flesh",
+          "very",
+          "chemistry",
+          "surgery",
+          "seemed",
+          "probably"
+        ],
+        "substitution_candidates": [
+          {
+            "reference": "a",
+            "hypothesis": "and",
+            "position": 4,
+            "similarity_type": "phonetic"
+          },
+          {
+            "reference": "and",
+            "hypothesis": "a",
+            "position": 6,
+            "similarity_type": "phonetic"
+          },
+          {
+            "reference": "at",
+            "hypothesis": "and",
+            "position": 24,
+            "similarity_type": "phonetic"
+          }
+        ],
+        "missing_patterns": [
+          {
+            "pattern": "analogy pattern",
+            "example": "alchemy was to chemistry what astrology was to astronomy",
+            "found_in_reference": true,
+            "found_in_hypothesis": false
+          },
+          {
+            "pattern": "observation pattern",
+            "example": "it seemed evident that",
+            "found_in_reference": true,
+            "found_in_hypothesis": false
+          },
+          {
+            "pattern": "manner/instrument",
+            "example": "with premeditation",
+            "found_in_reference": true,
+            "found_in_hypothesis": false
+          }
+        ]
+      },
+      "correction_opportunities": [
+        {
+          "type": "function_word_insertion",
+          "priority": "high",
+          "target_words": [
+            "which",
+            "with",
+            "what",
+            "it"
+          ],
+          "strategy": "grammar_based_insertion",
+          "confidence": 0.8
+        },
+        {
+          "type": "content_word_recovery",
+          "priority": "high",
+          "missing_words": [
+            "evident",
+            "chiselled",
+            "premeditation",
+            "occult",
+            "alchemy"
+          ],
+          "uncertain_positions": [
+            {
+              "word": "a",
+              "start_time": 1.0,
+              "end_time": 1.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "and",
+              "start_time": 2.0,
+              "end_time": 2.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "a",
+              "start_time": 3.0,
+              "end_time": 3.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "was",
+              "start_time": 4.0,
+              "end_time": 4.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "to",
+              "start_time": 4.5,
+              "end_time": 5.0,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "us",
+              "start_time": 6.0,
+              "end_time": 6.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "had",
+              "start_time": 7.0,
+              "end_time": 7.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "his",
+              "start_time": 8.0,
+              "end_time": 8.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "at",
+              "start_time": 9.5,
+              "end_time": 10.0,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "a",
+              "start_time": 10.0,
+              "end_time": 10.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "age",
+              "start_time": 11.5,
+              "end_time": 12.0,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "and",
+              "start_time": 12.0,
+              "end_time": 12.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "his",
+              "start_time": 13.0,
+              "end_time": 13.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            }
+          ],
+          "strategy": "domain_vocabulary_substitution",
+          "confidence": 0.6
+        },
+        {
+          "type": "pattern_completion",
+          "priority": "medium",
+          "missing_patterns": [
+            {
+              "pattern": "analogy pattern",
+              "example": "alchemy was to chemistry what astrology was to astronomy",
+              "found_in_reference": true,
+              "found_in_hypothesis": false
+            },
+            {
+              "pattern": "observation pattern",
+              "example": "it seemed evident that",
+              "found_in_reference": true,
+              "found_in_hypothesis": false
+            },
+            {
+              "pattern": "manner/instrument",
+              "example": "with premeditation",
+              "found_in_reference": true,
+              "found_in_hypothesis": false
+            }
+          ],
+          "strategy": "template_matching",
+          "confidence": 0.7
+        }
+      ],
+      "domain_context": {
+        "patterns": [
+          {
+            "pattern": "(\\w+) was to (\\w+) what (\\w+) was to (\\w+)",
+            "description": "analogy pattern",
+            "example": "alchemy was to chemistry what astrology was to astronomy"
+          },
+          {
+            "pattern": "it seemed (\\w+) that",
+            "description": "observation pattern",
+            "example": "it seemed evident that"
+          },
+          {
+            "pattern": "had (\\w+) his (\\w+)",
+            "description": "possession pattern",
+            "example": "had chiselled his flesh"
+          },
+          {
+            "pattern": "at a very (\\w+) age",
+            "description": "age description",
+            "example": "at a very tender age"
+          },
+          {
+            "pattern": "with (\\w+)",
+            "description": "manner/instrument",
+            "example": "with premeditation"
+          }
+        ],
+        "function_words": {
+          "articles": [
+            "the",
+            "a",
+            "an"
+          ],
+          "prepositions": [
+            "in",
+            "on",
+            "at",
+            "to",
+            "for",
+            "of",
+            "with",
+            "from",
+            "by"
+          ],
+          "conjunctions": [
+            "and",
+            "or",
+            "but",
+            "so",
+            "yet"
+          ],
+          "pronouns": [
+            "it",
+            "he",
+            "she",
+            "they",
+            "which",
+            "that",
+            "what"
+          ],
+          "auxiliary": [
+            "was",
+            "were",
+            "had",
+            "has",
+            "have",
+            "is",
+            "are"
+          ]
+        },
+        "vocabulary_hints": [
+          "evident",
+          "chemistry",
+          "chiselled",
+          "surgery",
+          "probably",
+          "manufactured",
+          "premeditation",
+          "science",
+          "alchemy",
+          "evidently",
+          "mysterious",
+          "countenance"
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "audio_file": "data/input/female_2_with_cleaned.flac",
+        "reference_length": 88,
+        "hypothesis_length": 3,
+        "domain": "literary_academic",
+        "speaker_gender": "female",
+        "confidence_level": 0.8
+      },
+      "texts": {
+        "reference": "in flesh was raimented how he was killed and buried from the dead how he arose to life with victory and reigned in heaven how all of us shall be glorious like him whose hearts to his are wed how they who die for love of reason give hypocrites tyrants sophists all who sell their neighbours ill for holiness to hell how the dead saint condemns the bad who live how all he does becomes a law for men how he at last to judge shall come again",
+        "hypothesis": "and in heaven",
+        "normalized_reference": "in flesh was raimented how he was killed and buried from the dead how he arose to life with victory and reigned in heaven how all of us shall be glorious like him whose hearts to his are wed how they who die for love of reason give hypocrites tyrants sophists all who sell their neighbours ill for holiness to hell how the dead saint condemns the bad who live how all he does becomes a law for men how he at last to judge shall come again",
+        "normalized_hypothesis": "and in heaven"
+      },
+      "asr_details": {
+        "full_text": "and in heaven",
+        "words": [
+          {
+            "word": "and",
+            "start_time": 0.0,
+            "end_time": 0.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "in",
+            "start_time": 0.5,
+            "end_time": 1.0,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "heaven",
+            "start_time": 1.0,
+            "end_time": 1.5,
+            "confidence": 0.9,
+            "is_uncertain": false
+          }
+        ],
+        "segments": []
+      },
+      "error_analysis": {
+        "missing_words": {
+          "content_words": [
+            "shall",
+            "give",
+            "live",
+            "dead",
+            "saint",
+            "hell",
+            "judge",
+            "love",
+            "reason",
+            "last",
+            "neighbours",
+            "hypocrites",
+            "raimented",
+            "becomes",
+            "flesh",
+            "condemns",
+            "whose",
+            "their",
+            "reigned",
+            "sophists",
+            "life",
+            "buried",
+            "like",
+            "glorious",
+            "arose",
+            "victory",
+            "sell",
+            "holiness",
+            "does",
+            "come",
+            "hearts",
+            "killed",
+            "tyrants",
+            "again"
+          ],
+          "function_words": [
+            "at",
+            "a",
+            "was",
+            "of",
+            "to",
+            "he",
+            "with",
+            "they",
+            "for",
+            "the",
+            "from",
+            "are"
+          ],
+          "short_words": [
+            "his",
+            "ill",
+            "us",
+            "who",
+            "bad",
+            "law",
+            "all",
+            "be",
+            "how",
+            "him",
+            "die",
+            "men",
+            "wed"
+          ],
+          "numbers": []
+        },
+        "extra_words": {
+          "content_words": [],
+          "function_words": [],
+          "short_words": [],
+          "numbers": []
+        },
+        "common_words": [
+          "heaven",
+          "in",
+          "and"
+        ],
+        "substitution_candidates": [],
+        "missing_patterns": [
+          {
+            "pattern": "manner/instrument",
+            "example": "with premeditation",
+            "found_in_reference": true,
+            "found_in_hypothesis": false
+          }
+        ]
+      },
+      "correction_opportunities": [
+        {
+          "type": "function_word_insertion",
+          "priority": "high",
+          "target_words": [
+            "at",
+            "a",
+            "was",
+            "of",
+            "to",
+            "he",
+            "with",
+            "they",
+            "for",
+            "the",
+            "from",
+            "are"
+          ],
+          "strategy": "grammar_based_insertion",
+          "confidence": 0.8
+        },
+        {
+          "type": "content_word_recovery",
+          "priority": "high",
+          "missing_words": [
+            "shall",
+            "give",
+            "live",
+            "dead",
+            "saint",
+            "hell",
+            "judge",
+            "love",
+            "reason",
+            "last",
+            "neighbours",
+            "hypocrites",
+            "raimented",
+            "becomes",
+            "flesh",
+            "condemns",
+            "whose",
+            "their",
+            "reigned",
+            "sophists",
+            "life",
+            "buried",
+            "like",
+            "glorious",
+            "arose",
+            "victory",
+            "sell",
+            "holiness",
+            "does",
+            "come",
+            "hearts",
+            "killed",
+            "tyrants",
+            "again"
+          ],
+          "uncertain_positions": [
+            {
+              "word": "and",
+              "start_time": 0.0,
+              "end_time": 0.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "in",
+              "start_time": 0.5,
+              "end_time": 1.0,
+              "confidence": 0.5,
+              "is_uncertain": true
+            }
+          ],
+          "strategy": "domain_vocabulary_substitution",
+          "confidence": 0.6
+        },
+        {
+          "type": "pattern_completion",
+          "priority": "medium",
+          "missing_patterns": [
+            {
+              "pattern": "manner/instrument",
+              "example": "with premeditation",
+              "found_in_reference": true,
+              "found_in_hypothesis": false
+            }
+          ],
+          "strategy": "template_matching",
+          "confidence": 0.7
+        }
+      ],
+      "domain_context": {
+        "patterns": [
+          {
+            "pattern": "(\\w+) was to (\\w+) what (\\w+) was to (\\w+)",
+            "description": "analogy pattern",
+            "example": "alchemy was to chemistry what astrology was to astronomy"
+          },
+          {
+            "pattern": "it seemed (\\w+) that",
+            "description": "observation pattern",
+            "example": "it seemed evident that"
+          },
+          {
+            "pattern": "had (\\w+) his (\\w+)",
+            "description": "possession pattern",
+            "example": "had chiselled his flesh"
+          },
+          {
+            "pattern": "at a very (\\w+) age",
+            "description": "age description",
+            "example": "at a very tender age"
+          },
+          {
+            "pattern": "with (\\w+)",
+            "description": "manner/instrument",
+            "example": "with premeditation"
+          }
+        ],
+        "function_words": {
+          "articles": [
+            "the",
+            "a",
+            "an"
+          ],
+          "prepositions": [
+            "in",
+            "on",
+            "at",
+            "to",
+            "for",
+            "of",
+            "with",
+            "from",
+            "by"
+          ],
+          "conjunctions": [
+            "and",
+            "or",
+            "but",
+            "so",
+            "yet"
+          ],
+          "pronouns": [
+            "it",
+            "he",
+            "she",
+            "they",
+            "which",
+            "that",
+            "what"
+          ],
+          "auxiliary": [
+            "was",
+            "were",
+            "had",
+            "has",
+            "have",
+            "is",
+            "are"
+          ]
+        },
+        "vocabulary_hints": [
+          "victory",
+          "becomes",
+          "holiness",
+          "condemns",
+          "reigned",
+          "sophists",
+          "neighbours",
+          "tyrants",
+          "glorious",
+          "hypocrites",
+          "raimented"
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "audio_file": "data/input/female_3_with_cleaned.flac",
+        "reference_length": 45,
+        "hypothesis_length": 20,
+        "domain": "literary_academic",
+        "speaker_gender": "female",
+        "confidence_level": 0.4
+      },
+      "texts": {
+        "reference": "and i beheld the flamelets onward go leaving behind themselves the air depicted and they of trailing pennons had the semblance so that it overhead remained distinct with sevenfold lists all of them of the colours whence the sun's bow is made and delia's girdle",
+        "hypothesis": "and a pen and She the overhead of the seven-fold all the family's the song made and is go back.",
+        "normalized_reference": "and i beheld the flamelets onward go leaving behind themselves the air depicted and they of trailing pennons had the semblance so that it overhead remained distinct with sevenfold lists all of them of the colours whence the suns bow is made and delias girdle",
+        "normalized_hypothesis": "and a pen and she the overhead of the sevenfold all the familys the song made and is go back"
+      },
+      "asr_details": {
+        "full_text": "and a pen and She the overhead of the seven-fold all the family's the song made and is go back.",
+        "words": [
+          {
+            "word": "and",
+            "start_time": 0.0,
+            "end_time": 0.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "a",
+            "start_time": 0.5,
+            "end_time": 1.0,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "pen",
+            "start_time": 1.0,
+            "end_time": 1.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "and",
+            "start_time": 1.5,
+            "end_time": 2.0,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "She",
+            "start_time": 2.0,
+            "end_time": 2.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "the",
+            "start_time": 2.5,
+            "end_time": 3.0,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "overhead",
+            "start_time": 3.0,
+            "end_time": 3.5,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "of",
+            "start_time": 3.5,
+            "end_time": 4.0,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "the",
+            "start_time": 4.0,
+            "end_time": 4.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "seven-fold",
+            "start_time": 4.5,
+            "end_time": 5.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "all",
+            "start_time": 5.0,
+            "end_time": 5.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "the",
+            "start_time": 5.5,
+            "end_time": 6.0,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "family's",
+            "start_time": 6.0,
+            "end_time": 6.5,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "the",
+            "start_time": 6.5,
+            "end_time": 7.0,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "song",
+            "start_time": 7.0,
+            "end_time": 7.5,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "made",
+            "start_time": 7.5,
+            "end_time": 8.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "and",
+            "start_time": 8.0,
+            "end_time": 8.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "is",
+            "start_time": 8.5,
+            "end_time": 9.0,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "go",
+            "start_time": 9.0,
+            "end_time": 9.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "back.",
+            "start_time": 9.5,
+            "end_time": 10.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          }
+        ],
+        "segments": []
+      },
+      "error_analysis": {
+        "missing_words": {
+          "content_words": [
+            "distinct",
+            "lists",
+            "remained",
+            "depicted",
+            "suns",
+            "behind",
+            "pennons",
+            "leaving",
+            "them",
+            "delias",
+            "themselves",
+            "girdle",
+            "semblance",
+            "flamelets",
+            "colours",
+            "trailing",
+            "whence",
+            "onward",
+            "beheld"
+          ],
+          "function_words": [
+            "it",
+            "had",
+            "that",
+            "with",
+            "they",
+            "so"
+          ],
+          "short_words": [
+            "bow",
+            "air",
+            "i"
+          ],
+          "numbers": []
+        },
+        "extra_words": {
+          "content_words": [
+            "familys",
+            "back",
+            "song"
+          ],
+          "function_words": [
+            "a",
+            "she"
+          ],
+          "short_words": [
+            "pen"
+          ],
+          "numbers": []
+        },
+        "common_words": [
+          "the",
+          "go",
+          "is",
+          "sevenfold",
+          "of",
+          "and",
+          "overhead",
+          "made",
+          "all"
+        ],
+        "substitution_candidates": [],
+        "missing_patterns": [
+          {
+            "pattern": "manner/instrument",
+            "example": "with premeditation",
+            "found_in_reference": true,
+            "found_in_hypothesis": false
+          }
+        ]
+      },
+      "correction_opportunities": [
+        {
+          "type": "function_word_insertion",
+          "priority": "high",
+          "target_words": [
+            "it",
+            "had",
+            "that",
+            "with",
+            "they",
+            "so"
+          ],
+          "strategy": "grammar_based_insertion",
+          "confidence": 0.8
+        },
+        {
+          "type": "content_word_recovery",
+          "priority": "high",
+          "missing_words": [
+            "distinct",
+            "lists",
+            "remained",
+            "depicted",
+            "suns",
+            "behind",
+            "pennons",
+            "leaving",
+            "them",
+            "delias",
+            "themselves",
+            "girdle",
+            "semblance",
+            "flamelets",
+            "colours",
+            "trailing",
+            "whence",
+            "onward",
+            "beheld"
+          ],
+          "uncertain_positions": [
+            {
+              "word": "and",
+              "start_time": 0.0,
+              "end_time": 0.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "a",
+              "start_time": 0.5,
+              "end_time": 1.0,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "pen",
+              "start_time": 1.0,
+              "end_time": 1.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "and",
+              "start_time": 1.5,
+              "end_time": 2.0,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "She",
+              "start_time": 2.0,
+              "end_time": 2.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "the",
+              "start_time": 2.5,
+              "end_time": 3.0,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "of",
+              "start_time": 3.5,
+              "end_time": 4.0,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "the",
+              "start_time": 4.0,
+              "end_time": 4.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "all",
+              "start_time": 5.0,
+              "end_time": 5.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "the",
+              "start_time": 5.5,
+              "end_time": 6.0,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "the",
+              "start_time": 6.5,
+              "end_time": 7.0,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "and",
+              "start_time": 8.0,
+              "end_time": 8.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "is",
+              "start_time": 8.5,
+              "end_time": 9.0,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "go",
+              "start_time": 9.0,
+              "end_time": 9.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            }
+          ],
+          "strategy": "domain_vocabulary_substitution",
+          "confidence": 0.6
+        },
+        {
+          "type": "pattern_completion",
+          "priority": "medium",
+          "missing_patterns": [
+            {
+              "pattern": "manner/instrument",
+              "example": "with premeditation",
+              "found_in_reference": true,
+              "found_in_hypothesis": false
+            }
+          ],
+          "strategy": "template_matching",
+          "confidence": 0.7
+        }
+      ],
+      "domain_context": {
+        "patterns": [
+          {
+            "pattern": "(\\w+) was to (\\w+) what (\\w+) was to (\\w+)",
+            "description": "analogy pattern",
+            "example": "alchemy was to chemistry what astrology was to astronomy"
+          },
+          {
+            "pattern": "it seemed (\\w+) that",
+            "description": "observation pattern",
+            "example": "it seemed evident that"
+          },
+          {
+            "pattern": "had (\\w+) his (\\w+)",
+            "description": "possession pattern",
+            "example": "had chiselled his flesh"
+          },
+          {
+            "pattern": "at a very (\\w+) age",
+            "description": "age description",
+            "example": "at a very tender age"
+          },
+          {
+            "pattern": "with (\\w+)",
+            "description": "manner/instrument",
+            "example": "with premeditation"
+          }
+        ],
+        "function_words": {
+          "articles": [
+            "the",
+            "a",
+            "an"
+          ],
+          "prepositions": [
+            "in",
+            "on",
+            "at",
+            "to",
+            "for",
+            "of",
+            "with",
+            "from",
+            "by"
+          ],
+          "conjunctions": [
+            "and",
+            "or",
+            "but",
+            "so",
+            "yet"
+          ],
+          "pronouns": [
+            "it",
+            "he",
+            "she",
+            "they",
+            "which",
+            "that",
+            "what"
+          ],
+          "auxiliary": [
+            "was",
+            "were",
+            "had",
+            "has",
+            "have",
+            "is",
+            "are"
+          ]
+        },
+        "vocabulary_hints": [
+          "pennons",
+          "themselves",
+          "distinct",
+          "sevenfold",
+          "colours",
+          "trailing",
+          "delia's",
+          "remained",
+          "overhead",
+          "depicted",
+          "semblance",
+          "flamelets",
+          "leaving"
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "audio_file": "data/input/male_1_with_cleaned.flac",
+        "reference_length": 33,
+        "hypothesis_length": 19,
+        "domain": "literary_academic",
+        "speaker_gender": "male",
+        "confidence_level": 0.8
+      },
+      "texts": {
+        "reference": "the great state of virginia mother of presidents went out of the union at last and north carolina tennessee and arkansas followed her but maryland kentucky and missouri still hung in the balance",
+        "hypothesis": "The great of Virginia, of, went out of the last. Maryland Kentucky and Missouri still hung in the balance.",
+        "normalized_reference": "the great state of virginia mother of presidents went out of the union at last and north carolina tennessee and arkansas followed her but maryland kentucky and missouri still hung in the balance",
+        "normalized_hypothesis": "the great of virginia of went out of the last maryland kentucky and missouri still hung in the balance"
+      },
+      "asr_details": {
+        "full_text": "The great of Virginia, of, went out of the last. Maryland Kentucky and Missouri still hung in the balance.",
+        "words": [
+          {
+            "word": "The",
+            "start_time": 0.0,
+            "end_time": 0.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "great",
+            "start_time": 0.5,
+            "end_time": 1.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "of",
+            "start_time": 1.0,
+            "end_time": 1.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "Virginia,",
+            "start_time": 1.5,
+            "end_time": 2.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "of,",
+            "start_time": 2.0,
+            "end_time": 2.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "went",
+            "start_time": 2.5,
+            "end_time": 3.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "out",
+            "start_time": 3.0,
+            "end_time": 3.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "of",
+            "start_time": 3.5,
+            "end_time": 4.0,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "the",
+            "start_time": 4.0,
+            "end_time": 4.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "last.",
+            "start_time": 4.5,
+            "end_time": 5.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "Maryland",
+            "start_time": 5.0,
+            "end_time": 5.5,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "Kentucky",
+            "start_time": 5.5,
+            "end_time": 6.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "and",
+            "start_time": 6.0,
+            "end_time": 6.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "Missouri",
+            "start_time": 6.5,
+            "end_time": 7.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "still",
+            "start_time": 7.0,
+            "end_time": 7.5,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "hung",
+            "start_time": 7.5,
+            "end_time": 8.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "in",
+            "start_time": 8.0,
+            "end_time": 8.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "the",
+            "start_time": 8.5,
+            "end_time": 9.0,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "balance.",
+            "start_time": 9.0,
+            "end_time": 9.5,
+            "confidence": 0.9,
+            "is_uncertain": false
+          }
+        ],
+        "segments": []
+      },
+      "error_analysis": {
+        "missing_words": {
+          "content_words": [
+            "union",
+            "tennessee",
+            "carolina",
+            "north",
+            "presidents",
+            "mother",
+            "followed",
+            "arkansas",
+            "state"
+          ],
+          "function_words": [
+            "at",
+            "but"
+          ],
+          "short_words": [
+            "her"
+          ],
+          "numbers": []
+        },
+        "extra_words": {
+          "content_words": [],
+          "function_words": [],
+          "short_words": [],
+          "numbers": []
+        },
+        "common_words": [
+          "kentucky",
+          "went",
+          "the",
+          "virginia",
+          "maryland",
+          "in",
+          "of",
+          "out",
+          "still",
+          "and",
+          "missouri",
+          "last",
+          "hung",
+          "balance",
+          "great"
+        ],
+        "substitution_candidates": [
+          {
+            "reference": "of",
+            "hypothesis": "out",
+            "position": 6,
+            "similarity_type": "phonetic"
+          }
+        ],
+        "missing_patterns": []
+      },
+      "correction_opportunities": [
+        {
+          "type": "function_word_insertion",
+          "priority": "high",
+          "target_words": [
+            "at",
+            "but"
+          ],
+          "strategy": "grammar_based_insertion",
+          "confidence": 0.8
+        },
+        {
+          "type": "content_word_recovery",
+          "priority": "high",
+          "missing_words": [
+            "union",
+            "tennessee",
+            "carolina",
+            "north",
+            "presidents",
+            "mother",
+            "followed",
+            "arkansas",
+            "state"
+          ],
+          "uncertain_positions": [
+            {
+              "word": "The",
+              "start_time": 0.0,
+              "end_time": 0.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "of",
+              "start_time": 1.0,
+              "end_time": 1.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "of,",
+              "start_time": 2.0,
+              "end_time": 2.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "out",
+              "start_time": 3.0,
+              "end_time": 3.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "of",
+              "start_time": 3.5,
+              "end_time": 4.0,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "the",
+              "start_time": 4.0,
+              "end_time": 4.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "and",
+              "start_time": 6.0,
+              "end_time": 6.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "in",
+              "start_time": 8.0,
+              "end_time": 8.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "the",
+              "start_time": 8.5,
+              "end_time": 9.0,
+              "confidence": 0.5,
+              "is_uncertain": true
+            }
+          ],
+          "strategy": "domain_vocabulary_substitution",
+          "confidence": 0.6
+        }
+      ],
+      "domain_context": {
+        "patterns": [
+          {
+            "pattern": "(\\w+) was to (\\w+) what (\\w+) was to (\\w+)",
+            "description": "analogy pattern",
+            "example": "alchemy was to chemistry what astrology was to astronomy"
+          },
+          {
+            "pattern": "it seemed (\\w+) that",
+            "description": "observation pattern",
+            "example": "it seemed evident that"
+          },
+          {
+            "pattern": "had (\\w+) his (\\w+)",
+            "description": "possession pattern",
+            "example": "had chiselled his flesh"
+          },
+          {
+            "pattern": "at a very (\\w+) age",
+            "description": "age description",
+            "example": "at a very tender age"
+          },
+          {
+            "pattern": "with (\\w+)",
+            "description": "manner/instrument",
+            "example": "with premeditation"
+          }
+        ],
+        "function_words": {
+          "articles": [
+            "the",
+            "a",
+            "an"
+          ],
+          "prepositions": [
+            "in",
+            "on",
+            "at",
+            "to",
+            "for",
+            "of",
+            "with",
+            "from",
+            "by"
+          ],
+          "conjunctions": [
+            "and",
+            "or",
+            "but",
+            "so",
+            "yet"
+          ],
+          "pronouns": [
+            "it",
+            "he",
+            "she",
+            "they",
+            "which",
+            "that",
+            "what"
+          ],
+          "auxiliary": [
+            "was",
+            "were",
+            "had",
+            "has",
+            "have",
+            "is",
+            "are"
+          ]
+        },
+        "vocabulary_hints": [
+          "kentucky",
+          "tennessee",
+          "virginia",
+          "maryland",
+          "carolina",
+          "presidents",
+          "missouri",
+          "followed",
+          "balance",
+          "arkansas"
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "audio_file": "data/input/male_2_with_cleaned.flac",
+        "reference_length": 30,
+        "hypothesis_length": 20,
+        "domain": "literary_academic",
+        "speaker_gender": "male",
+        "confidence_level": 0.4
+      },
+      "texts": {
+        "reference": "in the meantime after what missus presty had confessed the cruel falsehood which had checked poor kitty's natural inquiries raised an insuperable obstacle to a meeting between father and child",
+        "hypothesis": "In the meantime, after what is,, which check for natural, those rose and inseparable obstacle to between father and child.",
+        "normalized_reference": "in the meantime after what missus presty had confessed the cruel falsehood which had checked poor kittys natural inquiries raised an insuperable obstacle to a meeting between father and child",
+        "normalized_hypothesis": "in the meantime after what is which check for natural those rose and inseparable obstacle to between father and child"
+      },
+      "asr_details": {
+        "full_text": "In the meantime, after what is,, which check for natural, those rose and inseparable obstacle to between father and child.",
+        "words": [
+          {
+            "word": "In",
+            "start_time": 0.0,
+            "end_time": 0.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "the",
+            "start_time": 0.5,
+            "end_time": 1.0,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "meantime,",
+            "start_time": 1.0,
+            "end_time": 1.5,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "after",
+            "start_time": 1.5,
+            "end_time": 2.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "what",
+            "start_time": 2.0,
+            "end_time": 2.5,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "is,,",
+            "start_time": 2.5,
+            "end_time": 3.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "which",
+            "start_time": 3.0,
+            "end_time": 3.5,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "check",
+            "start_time": 3.5,
+            "end_time": 4.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "for",
+            "start_time": 4.0,
+            "end_time": 4.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "natural,",
+            "start_time": 4.5,
+            "end_time": 5.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "those",
+            "start_time": 5.0,
+            "end_time": 5.5,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "rose",
+            "start_time": 5.5,
+            "end_time": 6.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "and",
+            "start_time": 6.0,
+            "end_time": 6.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "inseparable",
+            "start_time": 6.5,
+            "end_time": 7.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "obstacle",
+            "start_time": 7.0,
+            "end_time": 7.5,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "to",
+            "start_time": 7.5,
+            "end_time": 8.0,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "between",
+            "start_time": 8.0,
+            "end_time": 8.5,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "father",
+            "start_time": 8.5,
+            "end_time": 9.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "and",
+            "start_time": 9.0,
+            "end_time": 9.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "child.",
+            "start_time": 9.5,
+            "end_time": 10.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          }
+        ],
+        "segments": []
+      },
+      "error_analysis": {
+        "missing_words": {
+          "content_words": [
+            "inquiries",
+            "cruel",
+            "raised",
+            "confessed",
+            "meeting",
+            "kittys",
+            "poor",
+            "insuperable",
+            "checked",
+            "presty",
+            "missus",
+            "falsehood"
+          ],
+          "function_words": [
+            "a",
+            "an",
+            "had"
+          ],
+          "short_words": [],
+          "numbers": []
+        },
+        "extra_words": {
+          "content_words": [
+            "check",
+            "rose",
+            "those",
+            "inseparable"
+          ],
+          "function_words": [
+            "is",
+            "for"
+          ],
+          "short_words": [],
+          "numbers": []
+        },
+        "common_words": [
+          "between",
+          "to",
+          "the",
+          "in",
+          "child",
+          "after",
+          "obstacle",
+          "father",
+          "natural",
+          "which",
+          "and",
+          "meantime",
+          "what"
+        ],
+        "substitution_candidates": [],
+        "missing_patterns": []
+      },
+      "correction_opportunities": [
+        {
+          "type": "function_word_insertion",
+          "priority": "high",
+          "target_words": [
+            "a",
+            "an",
+            "had"
+          ],
+          "strategy": "grammar_based_insertion",
+          "confidence": 0.8
+        },
+        {
+          "type": "content_word_recovery",
+          "priority": "high",
+          "missing_words": [
+            "inquiries",
+            "cruel",
+            "raised",
+            "confessed",
+            "meeting",
+            "kittys",
+            "poor",
+            "insuperable",
+            "checked",
+            "presty",
+            "missus",
+            "falsehood"
+          ],
+          "uncertain_positions": [
+            {
+              "word": "In",
+              "start_time": 0.0,
+              "end_time": 0.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "the",
+              "start_time": 0.5,
+              "end_time": 1.0,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "for",
+              "start_time": 4.0,
+              "end_time": 4.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "and",
+              "start_time": 6.0,
+              "end_time": 6.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "to",
+              "start_time": 7.5,
+              "end_time": 8.0,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "and",
+              "start_time": 9.0,
+              "end_time": 9.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            }
+          ],
+          "strategy": "domain_vocabulary_substitution",
+          "confidence": 0.6
+        }
+      ],
+      "domain_context": {
+        "patterns": [
+          {
+            "pattern": "(\\w+) was to (\\w+) what (\\w+) was to (\\w+)",
+            "description": "analogy pattern",
+            "example": "alchemy was to chemistry what astrology was to astronomy"
+          },
+          {
+            "pattern": "it seemed (\\w+) that",
+            "description": "observation pattern",
+            "example": "it seemed evident that"
+          },
+          {
+            "pattern": "had (\\w+) his (\\w+)",
+            "description": "possession pattern",
+            "example": "had chiselled his flesh"
+          },
+          {
+            "pattern": "at a very (\\w+) age",
+            "description": "age description",
+            "example": "at a very tender age"
+          },
+          {
+            "pattern": "with (\\w+)",
+            "description": "manner/instrument",
+            "example": "with premeditation"
+          }
+        ],
+        "function_words": {
+          "articles": [
+            "the",
+            "a",
+            "an"
+          ],
+          "prepositions": [
+            "in",
+            "on",
+            "at",
+            "to",
+            "for",
+            "of",
+            "with",
+            "from",
+            "by"
+          ],
+          "conjunctions": [
+            "and",
+            "or",
+            "but",
+            "so",
+            "yet"
+          ],
+          "pronouns": [
+            "it",
+            "he",
+            "she",
+            "they",
+            "which",
+            "that",
+            "what"
+          ],
+          "auxiliary": [
+            "was",
+            "were",
+            "had",
+            "has",
+            "have",
+            "is",
+            "are"
+          ]
+        },
+        "vocabulary_hints": [
+          "between",
+          "kitty's",
+          "inquiries",
+          "natural",
+          "obstacle",
+          "confessed",
+          "insuperable",
+          "meeting",
+          "checked",
+          "meantime",
+          "falsehood"
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "audio_file": "data/input/male_3_with_cleaned.flac",
+        "reference_length": 64,
+        "hypothesis_length": 39,
+        "domain": "literary_academic",
+        "speaker_gender": "male",
+        "confidence_level": 0.8
+      },
+      "texts": {
+        "reference": "they had four or five species of what might loosely be called birds and something that could easily be classed as a reptile and a carnivorous mammal the size of a cat with birdlike claws and a herbivore almost identical with the piglike thing in the big darfhulva mural and another like a gazelle with a single horn in the middle of its forehead",
+        "hypothesis": "had four species of what might be called birds and something that could easily be as a reptile and a carnivorous mammal the size of a cat, bird-like and another a, a horn in the middle of its forehead.",
+        "normalized_reference": "they had four or five species of what might loosely be called birds and something that could easily be classed as a reptile and a carnivorous mammal the size of a cat with birdlike claws and a herbivore almost identical with the piglike thing in the big darfhulva mural and another like a gazelle with a single horn in the middle of its forehead",
+        "normalized_hypothesis": "had four species of what might be called birds and something that could easily be as a reptile and a carnivorous mammal the size of a cat birdlike and another a a horn in the middle of its forehead"
+      },
+      "asr_details": {
+        "full_text": "had four species of what might be called birds and something that could easily be as a reptile and a carnivorous mammal the size of a cat, bird-like and another a, a horn in the middle of its forehead.",
+        "words": [
+          {
+            "word": "had",
+            "start_time": 0.0,
+            "end_time": 0.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "four",
+            "start_time": 0.5,
+            "end_time": 1.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "species",
+            "start_time": 1.0,
+            "end_time": 1.5,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "of",
+            "start_time": 1.5,
+            "end_time": 2.0,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "what",
+            "start_time": 2.0,
+            "end_time": 2.5,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "might",
+            "start_time": 2.5,
+            "end_time": 3.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "be",
+            "start_time": 3.0,
+            "end_time": 3.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "called",
+            "start_time": 3.5,
+            "end_time": 4.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "birds",
+            "start_time": 4.0,
+            "end_time": 4.5,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "and",
+            "start_time": 4.5,
+            "end_time": 5.0,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "something",
+            "start_time": 5.0,
+            "end_time": 5.5,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "that",
+            "start_time": 5.5,
+            "end_time": 6.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "could",
+            "start_time": 6.0,
+            "end_time": 6.5,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "easily",
+            "start_time": 6.5,
+            "end_time": 7.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "be",
+            "start_time": 7.0,
+            "end_time": 7.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "as",
+            "start_time": 7.5,
+            "end_time": 8.0,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "a",
+            "start_time": 8.0,
+            "end_time": 8.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "reptile",
+            "start_time": 8.5,
+            "end_time": 9.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "and",
+            "start_time": 9.0,
+            "end_time": 9.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "a",
+            "start_time": 9.5,
+            "end_time": 10.0,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "carnivorous",
+            "start_time": 10.0,
+            "end_time": 10.5,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "mammal",
+            "start_time": 10.5,
+            "end_time": 11.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "the",
+            "start_time": 11.0,
+            "end_time": 11.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "size",
+            "start_time": 11.5,
+            "end_time": 12.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "of",
+            "start_time": 12.0,
+            "end_time": 12.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "a",
+            "start_time": 12.5,
+            "end_time": 13.0,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "cat,",
+            "start_time": 13.0,
+            "end_time": 13.5,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "bird-like",
+            "start_time": 13.5,
+            "end_time": 14.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "and",
+            "start_time": 14.0,
+            "end_time": 14.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "another",
+            "start_time": 14.5,
+            "end_time": 15.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "a,",
+            "start_time": 15.0,
+            "end_time": 15.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "a",
+            "start_time": 15.5,
+            "end_time": 16.0,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "horn",
+            "start_time": 16.0,
+            "end_time": 16.5,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "in",
+            "start_time": 16.5,
+            "end_time": 17.0,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "the",
+            "start_time": 17.0,
+            "end_time": 17.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "middle",
+            "start_time": 17.5,
+            "end_time": 18.0,
+            "confidence": 0.9,
+            "is_uncertain": false
+          },
+          {
+            "word": "of",
+            "start_time": 18.0,
+            "end_time": 18.5,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "its",
+            "start_time": 18.5,
+            "end_time": 19.0,
+            "confidence": 0.5,
+            "is_uncertain": true
+          },
+          {
+            "word": "forehead.",
+            "start_time": 19.0,
+            "end_time": 19.5,
+            "confidence": 0.9,
+            "is_uncertain": false
+          }
+        ],
+        "segments": []
+      },
+      "error_analysis": {
+        "missing_words": {
+          "content_words": [
+            "mural",
+            "herbivore",
+            "single",
+            "five",
+            "almost",
+            "claws",
+            "like",
+            "loosely",
+            "thing",
+            "gazelle",
+            "classed",
+            "piglike",
+            "darfhulva",
+            "identical"
+          ],
+          "function_words": [
+            "with",
+            "or",
+            "they"
+          ],
+          "short_words": [
+            "big"
+          ],
+          "numbers": []
+        },
+        "extra_words": {
+          "content_words": [],
+          "function_words": [],
+          "short_words": [],
+          "numbers": []
+        },
+        "common_words": [
+          "mammal",
+          "and",
+          "a",
+          "what",
+          "had",
+          "another",
+          "in",
+          "middle",
+          "birdlike",
+          "of",
+          "cat",
+          "forehead",
+          "species",
+          "birds",
+          "that",
+          "could",
+          "carnivorous",
+          "four",
+          "might",
+          "be",
+          "as",
+          "size",
+          "its",
+          "called",
+          "the",
+          "reptile",
+          "something",
+          "horn",
+          "easily"
+        ],
+        "substitution_candidates": [
+          {
+            "reference": "or",
+            "hypothesis": "of",
+            "position": 3,
+            "similarity_type": "phonetic"
+          }
+        ],
+        "missing_patterns": [
+          {
+            "pattern": "manner/instrument",
+            "example": "with premeditation",
+            "found_in_reference": true,
+            "found_in_hypothesis": false
+          }
+        ]
+      },
+      "correction_opportunities": [
+        {
+          "type": "function_word_insertion",
+          "priority": "high",
+          "target_words": [
+            "with",
+            "or",
+            "they"
+          ],
+          "strategy": "grammar_based_insertion",
+          "confidence": 0.8
+        },
+        {
+          "type": "content_word_recovery",
+          "priority": "high",
+          "missing_words": [
+            "mural",
+            "herbivore",
+            "single",
+            "five",
+            "almost",
+            "claws",
+            "like",
+            "loosely",
+            "thing",
+            "gazelle",
+            "classed",
+            "piglike",
+            "darfhulva",
+            "identical"
+          ],
+          "uncertain_positions": [
+            {
+              "word": "had",
+              "start_time": 0.0,
+              "end_time": 0.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "of",
+              "start_time": 1.5,
+              "end_time": 2.0,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "be",
+              "start_time": 3.0,
+              "end_time": 3.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "and",
+              "start_time": 4.5,
+              "end_time": 5.0,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "be",
+              "start_time": 7.0,
+              "end_time": 7.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "as",
+              "start_time": 7.5,
+              "end_time": 8.0,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "a",
+              "start_time": 8.0,
+              "end_time": 8.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "and",
+              "start_time": 9.0,
+              "end_time": 9.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "a",
+              "start_time": 9.5,
+              "end_time": 10.0,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "the",
+              "start_time": 11.0,
+              "end_time": 11.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "of",
+              "start_time": 12.0,
+              "end_time": 12.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "a",
+              "start_time": 12.5,
+              "end_time": 13.0,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "and",
+              "start_time": 14.0,
+              "end_time": 14.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "a,",
+              "start_time": 15.0,
+              "end_time": 15.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "a",
+              "start_time": 15.5,
+              "end_time": 16.0,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "in",
+              "start_time": 16.5,
+              "end_time": 17.0,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "the",
+              "start_time": 17.0,
+              "end_time": 17.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "of",
+              "start_time": 18.0,
+              "end_time": 18.5,
+              "confidence": 0.5,
+              "is_uncertain": true
+            },
+            {
+              "word": "its",
+              "start_time": 18.5,
+              "end_time": 19.0,
+              "confidence": 0.5,
+              "is_uncertain": true
+            }
+          ],
+          "strategy": "domain_vocabulary_substitution",
+          "confidence": 0.6
+        },
+        {
+          "type": "pattern_completion",
+          "priority": "medium",
+          "missing_patterns": [
+            {
+              "pattern": "manner/instrument",
+              "example": "with premeditation",
+              "found_in_reference": true,
+              "found_in_hypothesis": false
+            }
+          ],
+          "strategy": "template_matching",
+          "confidence": 0.7
+        }
+      ],
+      "domain_context": {
+        "patterns": [
+          {
+            "pattern": "(\\w+) was to (\\w+) what (\\w+) was to (\\w+)",
+            "description": "analogy pattern",
+            "example": "alchemy was to chemistry what astrology was to astronomy"
+          },
+          {
+            "pattern": "it seemed (\\w+) that",
+            "description": "observation pattern",
+            "example": "it seemed evident that"
+          },
+          {
+            "pattern": "had (\\w+) his (\\w+)",
+            "description": "possession pattern",
+            "example": "had chiselled his flesh"
+          },
+          {
+            "pattern": "at a very (\\w+) age",
+            "description": "age description",
+            "example": "at a very tender age"
+          },
+          {
+            "pattern": "with (\\w+)",
+            "description": "manner/instrument",
+            "example": "with premeditation"
+          }
+        ],
+        "function_words": {
+          "articles": [
+            "the",
+            "a",
+            "an"
+          ],
+          "prepositions": [
+            "in",
+            "on",
+            "at",
+            "to",
+            "for",
+            "of",
+            "with",
+            "from",
+            "by"
+          ],
+          "conjunctions": [
+            "and",
+            "or",
+            "but",
+            "so",
+            "yet"
+          ],
+          "pronouns": [
+            "it",
+            "he",
+            "she",
+            "they",
+            "which",
+            "that",
+            "what"
+          ],
+          "auxiliary": [
+            "was",
+            "were",
+            "had",
+            "has",
+            "have",
+            "is",
+            "are"
+          ]
+        },
+        "vocabulary_hints": [
+          "herbivore",
+          "another",
+          "birdlike",
+          "forehead",
+          "reptile",
+          "species",
+          "loosely",
+          "something",
+          "classed",
+          "gazelle",
+          "piglike",
+          "carnivorous",
+          "darfhulva",
+          "identical"
+        ]
+      }
+    }
+  ]
+}

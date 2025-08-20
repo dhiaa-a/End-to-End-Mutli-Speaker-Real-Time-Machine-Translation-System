@@ -1,0 +1,11 @@
+Category,Metric,Value
+Separation Performance,Source Matching Strategy,"Source1→Original1, Source2→Original2"
+Separation Performance,Separation Quality Score,1.893
+Separation Performance,Energy Balance,0.407
+Source 1 Metrics,Energy Level,0.027659
+Source 1 Metrics,SNR (dB),-2.69
+Source 2 Metrics,Energy Level,0.007063
+Source 2 Metrics,SNR (dB),6.26
+Overall Performance,Average SNR (dB),1.78
+Correlation Analysis,Source1 vs Original1,-0.970
+Correlation Analysis,Source2 vs Original2,0.923

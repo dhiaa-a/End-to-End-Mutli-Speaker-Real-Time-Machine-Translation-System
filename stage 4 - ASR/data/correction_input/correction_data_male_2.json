@@ -1,0 +1,380 @@
+{
+  "metadata": {
+    "audio_file": "data/input/male_2_with_cleaned.flac",
+    "reference_length": 30,
+    "hypothesis_length": 20,
+    "domain": "literary_academic",
+    "speaker_gender": "male",
+    "confidence_level": 0.4
+  },
+  "texts": {
+    "reference": "in the meantime after what missus presty had confessed the cruel falsehood which had checked poor kitty's natural inquiries raised an insuperable obstacle to a meeting between father and child",
+    "hypothesis": "In the meantime, after what is,, which check for natural, those rose and inseparable obstacle to between father and child.",
+    "normalized_reference": "in the meantime after what missus presty had confessed the cruel falsehood which had checked poor kittys natural inquiries raised an insuperable obstacle to a meeting between father and child",
+    "normalized_hypothesis": "in the meantime after what is which check for natural those rose and inseparable obstacle to between father and child"
+  },
+  "asr_details": {
+    "full_text": "In the meantime, after what is,, which check for natural, those rose and inseparable obstacle to between father and child.",
+    "words": [
+      {
+        "word": "In",
+        "start_time": 0.0,
+        "end_time": 0.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "the",
+        "start_time": 0.5,
+        "end_time": 1.0,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "meantime,",
+        "start_time": 1.0,
+        "end_time": 1.5,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "after",
+        "start_time": 1.5,
+        "end_time": 2.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "what",
+        "start_time": 2.0,
+        "end_time": 2.5,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "is,,",
+        "start_time": 2.5,
+        "end_time": 3.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "which",
+        "start_time": 3.0,
+        "end_time": 3.5,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "check",
+        "start_time": 3.5,
+        "end_time": 4.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "for",
+        "start_time": 4.0,
+        "end_time": 4.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "natural,",
+        "start_time": 4.5,
+        "end_time": 5.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "those",
+        "start_time": 5.0,
+        "end_time": 5.5,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "rose",
+        "start_time": 5.5,
+        "end_time": 6.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "and",
+        "start_time": 6.0,
+        "end_time": 6.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "inseparable",
+        "start_time": 6.5,
+        "end_time": 7.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "obstacle",
+        "start_time": 7.0,
+        "end_time": 7.5,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "to",
+        "start_time": 7.5,
+        "end_time": 8.0,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "between",
+        "start_time": 8.0,
+        "end_time": 8.5,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "father",
+        "start_time": 8.5,
+        "end_time": 9.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "and",
+        "start_time": 9.0,
+        "end_time": 9.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "child.",
+        "start_time": 9.5,
+        "end_time": 10.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      }
+    ],
+    "segments": []
+  },
+  "error_analysis": {
+    "missing_words": {
+      "content_words": [
+        "inquiries",
+        "cruel",
+        "raised",
+        "confessed",
+        "meeting",
+        "kittys",
+        "poor",
+        "insuperable",
+        "checked",
+        "presty",
+        "missus",
+        "falsehood"
+      ],
+      "function_words": [
+        "a",
+        "an",
+        "had"
+      ],
+      "short_words": [],
+      "numbers": []
+    },
+    "extra_words": {
+      "content_words": [
+        "check",
+        "rose",
+        "those",
+        "inseparable"
+      ],
+      "function_words": [
+        "is",
+        "for"
+      ],
+      "short_words": [],
+      "numbers": []
+    },
+    "common_words": [
+      "between",
+      "to",
+      "the",
+      "in",
+      "child",
+      "after",
+      "obstacle",
+      "father",
+      "natural",
+      "which",
+      "and",
+      "meantime",
+      "what"
+    ],
+    "substitution_candidates": [],
+    "missing_patterns": []
+  },
+  "correction_opportunities": [
+    {
+      "type": "function_word_insertion",
+      "priority": "high",
+      "target_words": [
+        "a",
+        "an",
+        "had"
+      ],
+      "strategy": "grammar_based_insertion",
+      "confidence": 0.8
+    },
+    {
+      "type": "content_word_recovery",
+      "priority": "high",
+      "missing_words": [
+        "inquiries",
+        "cruel",
+        "raised",
+        "confessed",
+        "meeting",
+        "kittys",
+        "poor",
+        "insuperable",
+        "checked",
+        "presty",
+        "missus",
+        "falsehood"
+      ],
+      "uncertain_positions": [
+        {
+          "word": "In",
+          "start_time": 0.0,
+          "end_time": 0.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "the",
+          "start_time": 0.5,
+          "end_time": 1.0,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "for",
+          "start_time": 4.0,
+          "end_time": 4.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "and",
+          "start_time": 6.0,
+          "end_time": 6.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "to",
+          "start_time": 7.5,
+          "end_time": 8.0,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "and",
+          "start_time": 9.0,
+          "end_time": 9.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        }
+      ],
+      "strategy": "domain_vocabulary_substitution",
+      "confidence": 0.6
+    }
+  ],
+  "domain_context": {
+    "patterns": [
+      {
+        "pattern": "(\\w+) was to (\\w+) what (\\w+) was to (\\w+)",
+        "description": "analogy pattern",
+        "example": "alchemy was to chemistry what astrology was to astronomy"
+      },
+      {
+        "pattern": "it seemed (\\w+) that",
+        "description": "observation pattern",
+        "example": "it seemed evident that"
+      },
+      {
+        "pattern": "had (\\w+) his (\\w+)",
+        "description": "possession pattern",
+        "example": "had chiselled his flesh"
+      },
+      {
+        "pattern": "at a very (\\w+) age",
+        "description": "age description",
+        "example": "at a very tender age"
+      },
+      {
+        "pattern": "with (\\w+)",
+        "description": "manner/instrument",
+        "example": "with premeditation"
+      }
+    ],
+    "function_words": {
+      "articles": [
+        "the",
+        "a",
+        "an"
+      ],
+      "prepositions": [
+        "in",
+        "on",
+        "at",
+        "to",
+        "for",
+        "of",
+        "with",
+        "from",
+        "by"
+      ],
+      "conjunctions": [
+        "and",
+        "or",
+        "but",
+        "so",
+        "yet"
+      ],
+      "pronouns": [
+        "it",
+        "he",
+        "she",
+        "they",
+        "which",
+        "that",
+        "what"
+      ],
+      "auxiliary": [
+        "was",
+        "were",
+        "had",
+        "has",
+        "have",
+        "is",
+        "are"
+      ]
+    },
+    "vocabulary_hints": [
+      "between",
+      "kitty's",
+      "inquiries",
+      "natural",
+      "obstacle",
+      "confessed",
+      "insuperable",
+      "meeting",
+      "checked",
+      "meantime",
+      "falsehood"
+    ]
+  }
+}

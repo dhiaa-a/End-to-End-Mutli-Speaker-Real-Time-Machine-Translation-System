@@ -1,0 +1,649 @@
+{
+  "metadata": {
+    "audio_file": "data/input/male_3_with_cleaned.flac",
+    "reference_length": 64,
+    "hypothesis_length": 39,
+    "domain": "literary_academic",
+    "speaker_gender": "male",
+    "confidence_level": 0.8
+  },
+  "texts": {
+    "reference": "they had four or five species of what might loosely be called birds and something that could easily be classed as a reptile and a carnivorous mammal the size of a cat with birdlike claws and a herbivore almost identical with the piglike thing in the big darfhulva mural and another like a gazelle with a single horn in the middle of its forehead",
+    "hypothesis": "had four species of what might be called birds and something that could easily be as a reptile and a carnivorous mammal the size of a cat, bird-like and another a, a horn in the middle of its forehead.",
+    "normalized_reference": "they had four or five species of what might loosely be called birds and something that could easily be classed as a reptile and a carnivorous mammal the size of a cat with birdlike claws and a herbivore almost identical with the piglike thing in the big darfhulva mural and another like a gazelle with a single horn in the middle of its forehead",
+    "normalized_hypothesis": "had four species of what might be called birds and something that could easily be as a reptile and a carnivorous mammal the size of a cat birdlike and another a a horn in the middle of its forehead"
+  },
+  "asr_details": {
+    "full_text": "had four species of what might be called birds and something that could easily be as a reptile and a carnivorous mammal the size of a cat, bird-like and another a, a horn in the middle of its forehead.",
+    "words": [
+      {
+        "word": "had",
+        "start_time": 0.0,
+        "end_time": 0.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "four",
+        "start_time": 0.5,
+        "end_time": 1.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "species",
+        "start_time": 1.0,
+        "end_time": 1.5,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "of",
+        "start_time": 1.5,
+        "end_time": 2.0,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "what",
+        "start_time": 2.0,
+        "end_time": 2.5,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "might",
+        "start_time": 2.5,
+        "end_time": 3.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "be",
+        "start_time": 3.0,
+        "end_time": 3.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "called",
+        "start_time": 3.5,
+        "end_time": 4.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "birds",
+        "start_time": 4.0,
+        "end_time": 4.5,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "and",
+        "start_time": 4.5,
+        "end_time": 5.0,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "something",
+        "start_time": 5.0,
+        "end_time": 5.5,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "that",
+        "start_time": 5.5,
+        "end_time": 6.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "could",
+        "start_time": 6.0,
+        "end_time": 6.5,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "easily",
+        "start_time": 6.5,
+        "end_time": 7.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "be",
+        "start_time": 7.0,
+        "end_time": 7.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "as",
+        "start_time": 7.5,
+        "end_time": 8.0,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "a",
+        "start_time": 8.0,
+        "end_time": 8.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "reptile",
+        "start_time": 8.5,
+        "end_time": 9.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "and",
+        "start_time": 9.0,
+        "end_time": 9.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "a",
+        "start_time": 9.5,
+        "end_time": 10.0,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "carnivorous",
+        "start_time": 10.0,
+        "end_time": 10.5,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "mammal",
+        "start_time": 10.5,
+        "end_time": 11.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "the",
+        "start_time": 11.0,
+        "end_time": 11.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "size",
+        "start_time": 11.5,
+        "end_time": 12.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "of",
+        "start_time": 12.0,
+        "end_time": 12.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "a",
+        "start_time": 12.5,
+        "end_time": 13.0,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "cat,",
+        "start_time": 13.0,
+        "end_time": 13.5,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "bird-like",
+        "start_time": 13.5,
+        "end_time": 14.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "and",
+        "start_time": 14.0,
+        "end_time": 14.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "another",
+        "start_time": 14.5,
+        "end_time": 15.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "a,",
+        "start_time": 15.0,
+        "end_time": 15.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "a",
+        "start_time": 15.5,
+        "end_time": 16.0,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "horn",
+        "start_time": 16.0,
+        "end_time": 16.5,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "in",
+        "start_time": 16.5,
+        "end_time": 17.0,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "the",
+        "start_time": 17.0,
+        "end_time": 17.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "middle",
+        "start_time": 17.5,
+        "end_time": 18.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "of",
+        "start_time": 18.0,
+        "end_time": 18.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "its",
+        "start_time": 18.5,
+        "end_time": 19.0,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "forehead.",
+        "start_time": 19.0,
+        "end_time": 19.5,
+        "confidence": 0.9,
+        "is_uncertain": false
+      }
+    ],
+    "segments": []
+  },
+  "error_analysis": {
+    "missing_words": {
+      "content_words": [
+        "mural",
+        "herbivore",
+        "single",
+        "five",
+        "almost",
+        "claws",
+        "like",
+        "loosely",
+        "thing",
+        "gazelle",
+        "classed",
+        "piglike",
+        "darfhulva",
+        "identical"
+      ],
+      "function_words": [
+        "with",
+        "or",
+        "they"
+      ],
+      "short_words": [
+        "big"
+      ],
+      "numbers": []
+    },
+    "extra_words": {
+      "content_words": [],
+      "function_words": [],
+      "short_words": [],
+      "numbers": []
+    },
+    "common_words": [
+      "mammal",
+      "and",
+      "a",
+      "what",
+      "had",
+      "another",
+      "in",
+      "middle",
+      "birdlike",
+      "of",
+      "cat",
+      "forehead",
+      "species",
+      "birds",
+      "that",
+      "could",
+      "carnivorous",
+      "four",
+      "might",
+      "be",
+      "as",
+      "size",
+      "its",
+      "called",
+      "the",
+      "reptile",
+      "something",
+      "horn",
+      "easily"
+    ],
+    "substitution_candidates": [
+      {
+        "reference": "or",
+        "hypothesis": "of",
+        "position": 3,
+        "similarity_type": "phonetic"
+      }
+    ],
+    "missing_patterns": [
+      {
+        "pattern": "manner/instrument",
+        "example": "with premeditation",
+        "found_in_reference": true,
+        "found_in_hypothesis": false
+      }
+    ]
+  },
+  "correction_opportunities": [
+    {
+      "type": "function_word_insertion",
+      "priority": "high",
+      "target_words": [
+        "with",
+        "or",
+        "they"
+      ],
+      "strategy": "grammar_based_insertion",
+      "confidence": 0.8
+    },
+    {
+      "type": "content_word_recovery",
+      "priority": "high",
+      "missing_words": [
+        "mural",
+        "herbivore",
+        "single",
+        "five",
+        "almost",
+        "claws",
+        "like",
+        "loosely",
+        "thing",
+        "gazelle",
+        "classed",
+        "piglike",
+        "darfhulva",
+        "identical"
+      ],
+      "uncertain_positions": [
+        {
+          "word": "had",
+          "start_time": 0.0,
+          "end_time": 0.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "of",
+          "start_time": 1.5,
+          "end_time": 2.0,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "be",
+          "start_time": 3.0,
+          "end_time": 3.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "and",
+          "start_time": 4.5,
+          "end_time": 5.0,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "be",
+          "start_time": 7.0,
+          "end_time": 7.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "as",
+          "start_time": 7.5,
+          "end_time": 8.0,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "a",
+          "start_time": 8.0,
+          "end_time": 8.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "and",
+          "start_time": 9.0,
+          "end_time": 9.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "a",
+          "start_time": 9.5,
+          "end_time": 10.0,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "the",
+          "start_time": 11.0,
+          "end_time": 11.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "of",
+          "start_time": 12.0,
+          "end_time": 12.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "a",
+          "start_time": 12.5,
+          "end_time": 13.0,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "and",
+          "start_time": 14.0,
+          "end_time": 14.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "a,",
+          "start_time": 15.0,
+          "end_time": 15.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "a",
+          "start_time": 15.5,
+          "end_time": 16.0,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "in",
+          "start_time": 16.5,
+          "end_time": 17.0,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "the",
+          "start_time": 17.0,
+          "end_time": 17.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "of",
+          "start_time": 18.0,
+          "end_time": 18.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "its",
+          "start_time": 18.5,
+          "end_time": 19.0,
+          "confidence": 0.5,
+          "is_uncertain": true
+        }
+      ],
+      "strategy": "domain_vocabulary_substitution",
+      "confidence": 0.6
+    },
+    {
+      "type": "pattern_completion",
+      "priority": "medium",
+      "missing_patterns": [
+        {
+          "pattern": "manner/instrument",
+          "example": "with premeditation",
+          "found_in_reference": true,
+          "found_in_hypothesis": false
+        }
+      ],
+      "strategy": "template_matching",
+      "confidence": 0.7
+    }
+  ],
+  "domain_context": {
+    "patterns": [
+      {
+        "pattern": "(\\w+) was to (\\w+) what (\\w+) was to (\\w+)",
+        "description": "analogy pattern",
+        "example": "alchemy was to chemistry what astrology was to astronomy"
+      },
+      {
+        "pattern": "it seemed (\\w+) that",
+        "description": "observation pattern",
+        "example": "it seemed evident that"
+      },
+      {
+        "pattern": "had (\\w+) his (\\w+)",
+        "description": "possession pattern",
+        "example": "had chiselled his flesh"
+      },
+      {
+        "pattern": "at a very (\\w+) age",
+        "description": "age description",
+        "example": "at a very tender age"
+      },
+      {
+        "pattern": "with (\\w+)",
+        "description": "manner/instrument",
+        "example": "with premeditation"
+      }
+    ],
+    "function_words": {
+      "articles": [
+        "the",
+        "a",
+        "an"
+      ],
+      "prepositions": [
+        "in",
+        "on",
+        "at",
+        "to",
+        "for",
+        "of",
+        "with",
+        "from",
+        "by"
+      ],
+      "conjunctions": [
+        "and",
+        "or",
+        "but",
+        "so",
+        "yet"
+      ],
+      "pronouns": [
+        "it",
+        "he",
+        "she",
+        "they",
+        "which",
+        "that",
+        "what"
+      ],
+      "auxiliary": [
+        "was",
+        "were",
+        "had",
+        "has",
+        "have",
+        "is",
+        "are"
+      ]
+    },
+    "vocabulary_hints": [
+      "herbivore",
+      "another",
+      "birdlike",
+      "forehead",
+      "reptile",
+      "species",
+      "loosely",
+      "something",
+      "classed",
+      "gazelle",
+      "piglike",
+      "carnivorous",
+      "darfhulva",
+      "identical"
+    ]
+  }
+}

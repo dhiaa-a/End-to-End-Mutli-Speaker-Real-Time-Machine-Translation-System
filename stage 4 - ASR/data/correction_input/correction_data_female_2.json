@@ -1,0 +1,312 @@
+{
+  "metadata": {
+    "audio_file": "data/input/female_2_with_cleaned.flac",
+    "reference_length": 88,
+    "hypothesis_length": 3,
+    "domain": "literary_academic",
+    "speaker_gender": "female",
+    "confidence_level": 0.8
+  },
+  "texts": {
+    "reference": "in flesh was raimented how he was killed and buried from the dead how he arose to life with victory and reigned in heaven how all of us shall be glorious like him whose hearts to his are wed how they who die for love of reason give hypocrites tyrants sophists all who sell their neighbours ill for holiness to hell how the dead saint condemns the bad who live how all he does becomes a law for men how he at last to judge shall come again",
+    "hypothesis": "and in heaven",
+    "normalized_reference": "in flesh was raimented how he was killed and buried from the dead how he arose to life with victory and reigned in heaven how all of us shall be glorious like him whose hearts to his are wed how they who die for love of reason give hypocrites tyrants sophists all who sell their neighbours ill for holiness to hell how the dead saint condemns the bad who live how all he does becomes a law for men how he at last to judge shall come again",
+    "normalized_hypothesis": "and in heaven"
+  },
+  "asr_details": {
+    "full_text": "and in heaven",
+    "words": [
+      {
+        "word": "and",
+        "start_time": 0.0,
+        "end_time": 0.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "in",
+        "start_time": 0.5,
+        "end_time": 1.0,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "heaven",
+        "start_time": 1.0,
+        "end_time": 1.5,
+        "confidence": 0.9,
+        "is_uncertain": false
+      }
+    ],
+    "segments": []
+  },
+  "error_analysis": {
+    "missing_words": {
+      "content_words": [
+        "shall",
+        "give",
+        "live",
+        "dead",
+        "saint",
+        "hell",
+        "judge",
+        "love",
+        "reason",
+        "last",
+        "neighbours",
+        "hypocrites",
+        "raimented",
+        "becomes",
+        "flesh",
+        "condemns",
+        "whose",
+        "their",
+        "reigned",
+        "sophists",
+        "life",
+        "buried",
+        "like",
+        "glorious",
+        "arose",
+        "victory",
+        "sell",
+        "holiness",
+        "does",
+        "come",
+        "hearts",
+        "killed",
+        "tyrants",
+        "again"
+      ],
+      "function_words": [
+        "at",
+        "a",
+        "was",
+        "of",
+        "to",
+        "he",
+        "with",
+        "they",
+        "for",
+        "the",
+        "from",
+        "are"
+      ],
+      "short_words": [
+        "his",
+        "ill",
+        "us",
+        "who",
+        "bad",
+        "law",
+        "all",
+        "be",
+        "how",
+        "him",
+        "die",
+        "men",
+        "wed"
+      ],
+      "numbers": []
+    },
+    "extra_words": {
+      "content_words": [],
+      "function_words": [],
+      "short_words": [],
+      "numbers": []
+    },
+    "common_words": [
+      "heaven",
+      "in",
+      "and"
+    ],
+    "substitution_candidates": [],
+    "missing_patterns": [
+      {
+        "pattern": "manner/instrument",
+        "example": "with premeditation",
+        "found_in_reference": true,
+        "found_in_hypothesis": false
+      }
+    ]
+  },
+  "correction_opportunities": [
+    {
+      "type": "function_word_insertion",
+      "priority": "high",
+      "target_words": [
+        "at",
+        "a",
+        "was",
+        "of",
+        "to",
+        "he",
+        "with",
+        "they",
+        "for",
+        "the",
+        "from",
+        "are"
+      ],
+      "strategy": "grammar_based_insertion",
+      "confidence": 0.8
+    },
+    {
+      "type": "content_word_recovery",
+      "priority": "high",
+      "missing_words": [
+        "shall",
+        "give",
+        "live",
+        "dead",
+        "saint",
+        "hell",
+        "judge",
+        "love",
+        "reason",
+        "last",
+        "neighbours",
+        "hypocrites",
+        "raimented",
+        "becomes",
+        "flesh",
+        "condemns",
+        "whose",
+        "their",
+        "reigned",
+        "sophists",
+        "life",
+        "buried",
+        "like",
+        "glorious",
+        "arose",
+        "victory",
+        "sell",
+        "holiness",
+        "does",
+        "come",
+        "hearts",
+        "killed",
+        "tyrants",
+        "again"
+      ],
+      "uncertain_positions": [
+        {
+          "word": "and",
+          "start_time": 0.0,
+          "end_time": 0.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "in",
+          "start_time": 0.5,
+          "end_time": 1.0,
+          "confidence": 0.5,
+          "is_uncertain": true
+        }
+      ],
+      "strategy": "domain_vocabulary_substitution",
+      "confidence": 0.6
+    },
+    {
+      "type": "pattern_completion",
+      "priority": "medium",
+      "missing_patterns": [
+        {
+          "pattern": "manner/instrument",
+          "example": "with premeditation",
+          "found_in_reference": true,
+          "found_in_hypothesis": false
+        }
+      ],
+      "strategy": "template_matching",
+      "confidence": 0.7
+    }
+  ],
+  "domain_context": {
+    "patterns": [
+      {
+        "pattern": "(\\w+) was to (\\w+) what (\\w+) was to (\\w+)",
+        "description": "analogy pattern",
+        "example": "alchemy was to chemistry what astrology was to astronomy"
+      },
+      {
+        "pattern": "it seemed (\\w+) that",
+        "description": "observation pattern",
+        "example": "it seemed evident that"
+      },
+      {
+        "pattern": "had (\\w+) his (\\w+)",
+        "description": "possession pattern",
+        "example": "had chiselled his flesh"
+      },
+      {
+        "pattern": "at a very (\\w+) age",
+        "description": "age description",
+        "example": "at a very tender age"
+      },
+      {
+        "pattern": "with (\\w+)",
+        "description": "manner/instrument",
+        "example": "with premeditation"
+      }
+    ],
+    "function_words": {
+      "articles": [
+        "the",
+        "a",
+        "an"
+      ],
+      "prepositions": [
+        "in",
+        "on",
+        "at",
+        "to",
+        "for",
+        "of",
+        "with",
+        "from",
+        "by"
+      ],
+      "conjunctions": [
+        "and",
+        "or",
+        "but",
+        "so",
+        "yet"
+      ],
+      "pronouns": [
+        "it",
+        "he",
+        "she",
+        "they",
+        "which",
+        "that",
+        "what"
+      ],
+      "auxiliary": [
+        "was",
+        "were",
+        "had",
+        "has",
+        "have",
+        "is",
+        "are"
+      ]
+    },
+    "vocabulary_hints": [
+      "victory",
+      "becomes",
+      "holiness",
+      "condemns",
+      "reigned",
+      "sophists",
+      "neighbours",
+      "tyrants",
+      "glorious",
+      "hypocrites",
+      "raimented"
+    ]
+  }
+}

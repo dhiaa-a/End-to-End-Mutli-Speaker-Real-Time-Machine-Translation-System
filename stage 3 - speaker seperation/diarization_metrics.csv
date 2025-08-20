@@ -1,0 +1,15 @@
+Category,Metric,Value
+File Analysis,cleaned_audio - True Speakers,2
+File Analysis,cleaned_audio - Forced Speakers,2
+File Analysis,cleaned_audio - Detected Speakers,2
+File Analysis,cleaned_audio - Total Speech Time (s),31.67
+File Analysis,cleaned_audio - Total Segments,4
+File Analysis,cleaned_audio - Avg Segment Length (s),7.92
+cleaned_audio - SPEAKER_01,Speaking Time (s),18.14
+cleaned_audio - SPEAKER_01,Speaking Percentage (%),57.3
+cleaned_audio - SPEAKER_01,Segment Count,1
+cleaned_audio - SPEAKER_01,Avg Segment Duration (s),18.14
+cleaned_audio - SPEAKER_00,Speaking Time (s),13.53
+cleaned_audio - SPEAKER_00,Speaking Percentage (%),42.7
+cleaned_audio - SPEAKER_00,Segment Count,3
+cleaned_audio - SPEAKER_00,Avg Segment Duration (s),4.51

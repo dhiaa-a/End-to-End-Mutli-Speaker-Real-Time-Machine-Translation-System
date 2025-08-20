@@ -1,0 +1,388 @@
+{
+  "metadata": {
+    "audio_file": "data/input/male_1_with_cleaned.flac",
+    "reference_length": 33,
+    "hypothesis_length": 19,
+    "domain": "literary_academic",
+    "speaker_gender": "male",
+    "confidence_level": 0.8
+  },
+  "texts": {
+    "reference": "the great state of virginia mother of presidents went out of the union at last and north carolina tennessee and arkansas followed her but maryland kentucky and missouri still hung in the balance",
+    "hypothesis": "The great of Virginia, of, went out of the last. Maryland Kentucky and Missouri still hung in the balance.",
+    "normalized_reference": "the great state of virginia mother of presidents went out of the union at last and north carolina tennessee and arkansas followed her but maryland kentucky and missouri still hung in the balance",
+    "normalized_hypothesis": "the great of virginia of went out of the last maryland kentucky and missouri still hung in the balance"
+  },
+  "asr_details": {
+    "full_text": "The great of Virginia, of, went out of the last. Maryland Kentucky and Missouri still hung in the balance.",
+    "words": [
+      {
+        "word": "The",
+        "start_time": 0.0,
+        "end_time": 0.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "great",
+        "start_time": 0.5,
+        "end_time": 1.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "of",
+        "start_time": 1.0,
+        "end_time": 1.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "Virginia,",
+        "start_time": 1.5,
+        "end_time": 2.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "of,",
+        "start_time": 2.0,
+        "end_time": 2.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "went",
+        "start_time": 2.5,
+        "end_time": 3.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "out",
+        "start_time": 3.0,
+        "end_time": 3.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "of",
+        "start_time": 3.5,
+        "end_time": 4.0,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "the",
+        "start_time": 4.0,
+        "end_time": 4.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "last.",
+        "start_time": 4.5,
+        "end_time": 5.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "Maryland",
+        "start_time": 5.0,
+        "end_time": 5.5,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "Kentucky",
+        "start_time": 5.5,
+        "end_time": 6.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "and",
+        "start_time": 6.0,
+        "end_time": 6.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "Missouri",
+        "start_time": 6.5,
+        "end_time": 7.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "still",
+        "start_time": 7.0,
+        "end_time": 7.5,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "hung",
+        "start_time": 7.5,
+        "end_time": 8.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "in",
+        "start_time": 8.0,
+        "end_time": 8.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "the",
+        "start_time": 8.5,
+        "end_time": 9.0,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "balance.",
+        "start_time": 9.0,
+        "end_time": 9.5,
+        "confidence": 0.9,
+        "is_uncertain": false
+      }
+    ],
+    "segments": []
+  },
+  "error_analysis": {
+    "missing_words": {
+      "content_words": [
+        "union",
+        "tennessee",
+        "carolina",
+        "north",
+        "presidents",
+        "mother",
+        "followed",
+        "arkansas",
+        "state"
+      ],
+      "function_words": [
+        "at",
+        "but"
+      ],
+      "short_words": [
+        "her"
+      ],
+      "numbers": []
+    },
+    "extra_words": {
+      "content_words": [],
+      "function_words": [],
+      "short_words": [],
+      "numbers": []
+    },
+    "common_words": [
+      "kentucky",
+      "went",
+      "the",
+      "virginia",
+      "maryland",
+      "in",
+      "of",
+      "out",
+      "still",
+      "and",
+      "missouri",
+      "last",
+      "hung",
+      "balance",
+      "great"
+    ],
+    "substitution_candidates": [
+      {
+        "reference": "of",
+        "hypothesis": "out",
+        "position": 6,
+        "similarity_type": "phonetic"
+      }
+    ],
+    "missing_patterns": []
+  },
+  "correction_opportunities": [
+    {
+      "type": "function_word_insertion",
+      "priority": "high",
+      "target_words": [
+        "at",
+        "but"
+      ],
+      "strategy": "grammar_based_insertion",
+      "confidence": 0.8
+    },
+    {
+      "type": "content_word_recovery",
+      "priority": "high",
+      "missing_words": [
+        "union",
+        "tennessee",
+        "carolina",
+        "north",
+        "presidents",
+        "mother",
+        "followed",
+        "arkansas",
+        "state"
+      ],
+      "uncertain_positions": [
+        {
+          "word": "The",
+          "start_time": 0.0,
+          "end_time": 0.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "of",
+          "start_time": 1.0,
+          "end_time": 1.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "of,",
+          "start_time": 2.0,
+          "end_time": 2.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "out",
+          "start_time": 3.0,
+          "end_time": 3.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "of",
+          "start_time": 3.5,
+          "end_time": 4.0,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "the",
+          "start_time": 4.0,
+          "end_time": 4.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "and",
+          "start_time": 6.0,
+          "end_time": 6.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "in",
+          "start_time": 8.0,
+          "end_time": 8.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "the",
+          "start_time": 8.5,
+          "end_time": 9.0,
+          "confidence": 0.5,
+          "is_uncertain": true
+        }
+      ],
+      "strategy": "domain_vocabulary_substitution",
+      "confidence": 0.6
+    }
+  ],
+  "domain_context": {
+    "patterns": [
+      {
+        "pattern": "(\\w+) was to (\\w+) what (\\w+) was to (\\w+)",
+        "description": "analogy pattern",
+        "example": "alchemy was to chemistry what astrology was to astronomy"
+      },
+      {
+        "pattern": "it seemed (\\w+) that",
+        "description": "observation pattern",
+        "example": "it seemed evident that"
+      },
+      {
+        "pattern": "had (\\w+) his (\\w+)",
+        "description": "possession pattern",
+        "example": "had chiselled his flesh"
+      },
+      {
+        "pattern": "at a very (\\w+) age",
+        "description": "age description",
+        "example": "at a very tender age"
+      },
+      {
+        "pattern": "with (\\w+)",
+        "description": "manner/instrument",
+        "example": "with premeditation"
+      }
+    ],
+    "function_words": {
+      "articles": [
+        "the",
+        "a",
+        "an"
+      ],
+      "prepositions": [
+        "in",
+        "on",
+        "at",
+        "to",
+        "for",
+        "of",
+        "with",
+        "from",
+        "by"
+      ],
+      "conjunctions": [
+        "and",
+        "or",
+        "but",
+        "so",
+        "yet"
+      ],
+      "pronouns": [
+        "it",
+        "he",
+        "she",
+        "they",
+        "which",
+        "that",
+        "what"
+      ],
+      "auxiliary": [
+        "was",
+        "were",
+        "had",
+        "has",
+        "have",
+        "is",
+        "are"
+      ]
+    },
+    "vocabulary_hints": [
+      "kentucky",
+      "tennessee",
+      "virginia",
+      "maryland",
+      "carolina",
+      "presidents",
+      "missouri",
+      "followed",
+      "balance",
+      "arkansas"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+ADAPTIVE NOISE REDUCTION - DETAILED EVALUATION REPORT
+============================================================
+
+Input File: data/input/female_2_with_noise.flac
+Output File: data/output/female_2_cleaned.flac
+Audio Duration: 31.70 seconds
+Sample Rate: 16000 Hz
+Processing Algorithm: Adaptive Spectral Subtraction
+
+SIGNAL-TO-NOISE RATIO (SNR) ANALYSIS:
+----------------------------------------
+Original Audio SNR:     5.16 dB
+Cleaned Audio SNR:      16.73 dB
+SNR Improvement:        +11.57 dB
+
+NOISE REDUCTION METRICS:
+----------------------------------------
+Noise Reduced:          15.95 dB
+Noise Reduction:        97.5%
+Remaining Noise:        2.5%
+
+SPECTRAL CHARACTERISTICS COMPARISON:
+----------------------------------------
+                        ORIGINAL    CLEANED     CHANGE
+Spectral Centroid:        3721.3     3088.4     -632.9 Hz
+Spectral Rolloff:         6653.5     5889.9     -763.6 Hz
+Zero Crossing Rate:       0.4177     0.3330    +0.0847
+ZCR Reduction:          20.3%
+
+SIGNAL QUALITY METRICS:
+----------------------------------------
+Original MSE:           0.008355
+Cleaned MSE:            0.003547
+MSE Reduction:          57.5%
+Quality Improvement:    57.5%
+
+PROCESSING STATISTICS:
+----------------------------------------

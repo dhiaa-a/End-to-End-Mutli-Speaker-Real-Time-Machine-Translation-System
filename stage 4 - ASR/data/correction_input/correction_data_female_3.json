@@ -1,0 +1,480 @@
+{
+  "metadata": {
+    "audio_file": "data/input/female_3_with_cleaned.flac",
+    "reference_length": 45,
+    "hypothesis_length": 20,
+    "domain": "literary_academic",
+    "speaker_gender": "female",
+    "confidence_level": 0.4
+  },
+  "texts": {
+    "reference": "and i beheld the flamelets onward go leaving behind themselves the air depicted and they of trailing pennons had the semblance so that it overhead remained distinct with sevenfold lists all of them of the colours whence the sun's bow is made and delia's girdle",
+    "hypothesis": "and a pen and She the overhead of the seven-fold all the family's the song made and is go back.",
+    "normalized_reference": "and i beheld the flamelets onward go leaving behind themselves the air depicted and they of trailing pennons had the semblance so that it overhead remained distinct with sevenfold lists all of them of the colours whence the suns bow is made and delias girdle",
+    "normalized_hypothesis": "and a pen and she the overhead of the sevenfold all the familys the song made and is go back"
+  },
+  "asr_details": {
+    "full_text": "and a pen and She the overhead of the seven-fold all the family's the song made and is go back.",
+    "words": [
+      {
+        "word": "and",
+        "start_time": 0.0,
+        "end_time": 0.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "a",
+        "start_time": 0.5,
+        "end_time": 1.0,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "pen",
+        "start_time": 1.0,
+        "end_time": 1.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "and",
+        "start_time": 1.5,
+        "end_time": 2.0,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "She",
+        "start_time": 2.0,
+        "end_time": 2.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "the",
+        "start_time": 2.5,
+        "end_time": 3.0,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "overhead",
+        "start_time": 3.0,
+        "end_time": 3.5,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "of",
+        "start_time": 3.5,
+        "end_time": 4.0,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "the",
+        "start_time": 4.0,
+        "end_time": 4.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "seven-fold",
+        "start_time": 4.5,
+        "end_time": 5.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "all",
+        "start_time": 5.0,
+        "end_time": 5.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "the",
+        "start_time": 5.5,
+        "end_time": 6.0,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "family's",
+        "start_time": 6.0,
+        "end_time": 6.5,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "the",
+        "start_time": 6.5,
+        "end_time": 7.0,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "song",
+        "start_time": 7.0,
+        "end_time": 7.5,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "made",
+        "start_time": 7.5,
+        "end_time": 8.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      },
+      {
+        "word": "and",
+        "start_time": 8.0,
+        "end_time": 8.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "is",
+        "start_time": 8.5,
+        "end_time": 9.0,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "go",
+        "start_time": 9.0,
+        "end_time": 9.5,
+        "confidence": 0.5,
+        "is_uncertain": true
+      },
+      {
+        "word": "back.",
+        "start_time": 9.5,
+        "end_time": 10.0,
+        "confidence": 0.9,
+        "is_uncertain": false
+      }
+    ],
+    "segments": []
+  },
+  "error_analysis": {
+    "missing_words": {
+      "content_words": [
+        "distinct",
+        "lists",
+        "remained",
+        "depicted",
+        "suns",
+        "behind",
+        "pennons",
+        "leaving",
+        "them",
+        "delias",
+        "themselves",
+        "girdle",
+        "semblance",
+        "flamelets",
+        "colours",
+        "trailing",
+        "whence",
+        "onward",
+        "beheld"
+      ],
+      "function_words": [
+        "it",
+        "had",
+        "that",
+        "with",
+        "they",
+        "so"
+      ],
+      "short_words": [
+        "bow",
+        "air",
+        "i"
+      ],
+      "numbers": []
+    },
+    "extra_words": {
+      "content_words": [
+        "familys",
+        "back",
+        "song"
+      ],
+      "function_words": [
+        "a",
+        "she"
+      ],
+      "short_words": [
+        "pen"
+      ],
+      "numbers": []
+    },
+    "common_words": [
+      "the",
+      "go",
+      "is",
+      "sevenfold",
+      "of",
+      "and",
+      "overhead",
+      "made",
+      "all"
+    ],
+    "substitution_candidates": [],
+    "missing_patterns": [
+      {
+        "pattern": "manner/instrument",
+        "example": "with premeditation",
+        "found_in_reference": true,
+        "found_in_hypothesis": false
+      }
+    ]
+  },
+  "correction_opportunities": [
+    {
+      "type": "function_word_insertion",
+      "priority": "high",
+      "target_words": [
+        "it",
+        "had",
+        "that",
+        "with",
+        "they",
+        "so"
+      ],
+      "strategy": "grammar_based_insertion",
+      "confidence": 0.8
+    },
+    {
+      "type": "content_word_recovery",
+      "priority": "high",
+      "missing_words": [
+        "distinct",
+        "lists",
+        "remained",
+        "depicted",
+        "suns",
+        "behind",
+        "pennons",
+        "leaving",
+        "them",
+        "delias",
+        "themselves",
+        "girdle",
+        "semblance",
+        "flamelets",
+        "colours",
+        "trailing",
+        "whence",
+        "onward",
+        "beheld"
+      ],
+      "uncertain_positions": [
+        {
+          "word": "and",
+          "start_time": 0.0,
+          "end_time": 0.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "a",
+          "start_time": 0.5,
+          "end_time": 1.0,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "pen",
+          "start_time": 1.0,
+          "end_time": 1.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "and",
+          "start_time": 1.5,
+          "end_time": 2.0,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "She",
+          "start_time": 2.0,
+          "end_time": 2.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "the",
+          "start_time": 2.5,
+          "end_time": 3.0,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "of",
+          "start_time": 3.5,
+          "end_time": 4.0,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "the",
+          "start_time": 4.0,
+          "end_time": 4.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "all",
+          "start_time": 5.0,
+          "end_time": 5.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "the",
+          "start_time": 5.5,
+          "end_time": 6.0,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "the",
+          "start_time": 6.5,
+          "end_time": 7.0,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "and",
+          "start_time": 8.0,
+          "end_time": 8.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "is",
+          "start_time": 8.5,
+          "end_time": 9.0,
+          "confidence": 0.5,
+          "is_uncertain": true
+        },
+        {
+          "word": "go",
+          "start_time": 9.0,
+          "end_time": 9.5,
+          "confidence": 0.5,
+          "is_uncertain": true
+        }
+      ],
+      "strategy": "domain_vocabulary_substitution",
+      "confidence": 0.6
+    },
+    {
+      "type": "pattern_completion",
+      "priority": "medium",
+      "missing_patterns": [
+        {
+          "pattern": "manner/instrument",
+          "example": "with premeditation",
+          "found_in_reference": true,
+          "found_in_hypothesis": false
+        }
+      ],
+      "strategy": "template_matching",
+      "confidence": 0.7
+    }
+  ],
+  "domain_context": {
+    "patterns": [
+      {
+        "pattern": "(\\w+) was to (\\w+) what (\\w+) was to (\\w+)",
+        "description": "analogy pattern",
+        "example": "alchemy was to chemistry what astrology was to astronomy"
+      },
+      {
+        "pattern": "it seemed (\\w+) that",
+        "description": "observation pattern",
+        "example": "it seemed evident that"
+      },
+      {
+        "pattern": "had (\\w+) his (\\w+)",
+        "description": "possession pattern",
+        "example": "had chiselled his flesh"
+      },
+      {
+        "pattern": "at a very (\\w+) age",
+        "description": "age description",
+        "example": "at a very tender age"
+      },
+      {
+        "pattern": "with (\\w+)",
+        "description": "manner/instrument",
+        "example": "with premeditation"
+      }
+    ],
+    "function_words": {
+      "articles": [
+        "the",
+        "a",
+        "an"
+      ],
+      "prepositions": [
+        "in",
+        "on",
+        "at",
+        "to",
+        "for",
+        "of",
+        "with",
+        "from",
+        "by"
+      ],
+      "conjunctions": [
+        "and",
+        "or",
+        "but",
+        "so",
+        "yet"
+      ],
+      "pronouns": [
+        "it",
+        "he",
+        "she",
+        "they",
+        "which",
+        "that",
+        "what"
+      ],
+      "auxiliary": [
+        "was",
+        "were",
+        "had",
+        "has",
+        "have",
+        "is",
+        "are"
+      ]
+    },
+    "vocabulary_hints": [
+      "pennons",
+      "themselves",
+      "distinct",
+      "sevenfold",
+      "colours",
+      "trailing",
+      "delia's",
+      "remained",
+      "overhead",
+      "depicted",
+      "semblance",
+      "flamelets",
+      "leaving"
+    ]
+  }
+}

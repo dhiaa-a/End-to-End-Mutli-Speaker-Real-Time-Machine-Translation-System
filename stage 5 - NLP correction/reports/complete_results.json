@@ -1,0 +1,459 @@
+{
+  "metadata": {
+    "timestamp": "2025-07-21T08:20:55.174502",
+    "total_cases": 6,
+    "domain": "literary_academic"
+  },
+  "cases": [
+    {
+      "id": 0,
+      "file": "data/input/female_1_with_cleaned.flac",
+      "gender": "female",
+      "severity": "low",
+      "original_confidence": 0.6,
+      "hypothesis": "seemed that a mysterious and probably a science was to surgery without us chemistry had just his flesh evidently at a very tender age and manufactured his countenance.",
+      "reference": "it seemed evident that a mysterious and probably occult science which was to surgery what alchemy was to chemistry had chiselled his flesh evidently at a very tender age and manufactured his countenance with premeditation",
+      "corrected": "SEEMED THAT A MYSTERIOUS AND PROBABLY A SCIENCE WAS TO SURGERY WITHOUT US CHEMISTRY HAD JUST HIS FLESH EVIDENTLY AT A VERY TENDER AGE AND MANUFACTURED HIS COUNTENANCE.",
+      "method": "pattern",
+      "correction_confidence": 0.7,
+      "processing_time": 0.0,
+      "metrics": {
+        "initial_wer": 1.0,
+        "corrected_wer": 1.0,
+        "wer_improvement": 0.0,
+        "wer_improvement_percent": 0.0,
+        "missing_words": 10,
+        "recovered_words": 0,
+        "recovery_rate": 0.0,
+        "length_difference": 0
+      }
+    },
+    {
+      "id": 1,
+      "file": "data/input/female_2_with_cleaned.flac",
+      "gender": "female",
+      "severity": "catastrophic",
+      "original_confidence": 0.8,
+      "hypothesis": "and in heaven",
+      "reference": "in flesh was raimented how he was killed and buried from the dead how he arose to life with victory and reigned in heaven how all of us shall be glorious like him whose hearts to his are wed how they who die for love of reason give hypocrites tyrants sophists all who sell their neighbours ill for holiness to hell how the dead saint condemns the bad who live how all he does becomes a law for men how he at last to judge shall come again",
+      "corrected": "AND IN HEAVEN",
+      "method": "neural",
+      "correction_confidence": 0.7,
+      "processing_time": 0.0,
+      "metrics": {
+        "initial_wer": 1.0,
+        "corrected_wer": 1.0,
+        "wer_improvement": 0.0,
+        "wer_improvement_percent": 0.0,
+        "missing_words": 59,
+        "recovered_words": 0,
+        "recovery_rate": 0.0,
+        "length_difference": 0
+      }
+    },
+    {
+      "id": 2,
+      "file": "data/input/female_3_with_cleaned.flac",
+      "gender": "female",
+      "severity": "medium",
+      "original_confidence": 0.4,
+      "hypothesis": "and a pen and She the overhead of the seven-fold all the family's the song made and is go back.",
+      "reference": "and i beheld the flamelets onward go leaving behind themselves the air depicted and they of trailing pennons had the semblance so that it overhead remained distinct with sevenfold lists all of them of the colours whence the sun's bow is made and delia's girdle",
+      "corrected": "AND A PEN AND SHE THE OVERHEAD OF THE SEVEN-FOLD ALL THE FAMILY'S THE SONG MADE AND IS GO BACK.",
+      "method": "neural",
+      "correction_confidence": 0.7,
+      "processing_time": 0.0,
+      "metrics": {
+        "initial_wer": 0.9777777777777777,
+        "corrected_wer": 0.9777777777777777,
+        "wer_improvement": 0.0,
+        "wer_improvement_percent": 0.0,
+        "missing_words": 29,
+        "recovered_words": 0,
+        "recovery_rate": 0.0,
+        "length_difference": 0
+      }
+    },
+    {
+      "id": 3,
+      "file": "data/input/male_1_with_cleaned.flac",
+      "gender": "male",
+      "severity": "medium",
+      "original_confidence": 0.8,
+      "hypothesis": "The great of Virginia, of, went out of the last. Maryland Kentucky and Missouri still hung in the balance.",
+      "reference": "the great state of virginia mother of presidents went out of the union at last and north carolina tennessee and arkansas followed her but maryland kentucky and missouri still hung in the balance",
+      "corrected": "THE GREAT OF VIRGINIA, OF, WENT OUT OF THE LAST. MARYLAND KENTUCKY AND MISSOURI STILL HUNG IN THE BALANCE.",
+      "method": "neural",
+      "correction_confidence": 0.7,
+      "processing_time": 0.0,
+      "metrics": {
+        "initial_wer": 0.9393939393939394,
+        "corrected_wer": 0.9393939393939394,
+        "wer_improvement": 0.0,
+        "wer_improvement_percent": 0.0,
+        "missing_words": 15,
+        "recovered_words": 0,
+        "recovery_rate": 0.0,
+        "length_difference": 0
+      }
+    },
+    {
+      "id": 4,
+      "file": "data/input/male_2_with_cleaned.flac",
+      "gender": "male",
+      "severity": "medium",
+      "original_confidence": 0.4,
+      "hypothesis": "In the meantime, after what is,, which check for natural, those rose and inseparable obstacle to between father and child.",
+      "reference": "in the meantime after what missus presty had confessed the cruel falsehood which had checked poor kitty's natural inquiries raised an insuperable obstacle to a meeting between father and child",
+      "corrected": "IN THE MEANTIME, AFTER WHAT IS,, WHICH CHECK FOR NATURAL, THOSE ROSE AND INSEPARABLE OBSTACLE TO BETWEEN FATHER AND CHILD.",
+      "method": "neural",
+      "correction_confidence": 0.7,
+      "processing_time": 0.0,
+      "metrics": {
+        "initial_wer": 0.8666666666666667,
+        "corrected_wer": 0.8666666666666667,
+        "wer_improvement": 0.0,
+        "wer_improvement_percent": 0.0,
+        "missing_words": 18,
+        "recovered_words": 0,
+        "recovery_rate": 0.0,
+        "length_difference": 0
+      }
+    },
+    {
+      "id": 5,
+      "file": "data/input/male_3_with_cleaned.flac",
+      "gender": "male",
+      "severity": "medium",
+      "original_confidence": 0.8,
+      "hypothesis": "had four species of what might be called birds and something that could easily be as a reptile and a carnivorous mammal the size of a cat, bird-like and another a, a horn in the middle of its forehead.",
+      "reference": "they had four or five species of what might loosely be called birds and something that could easily be classed as a reptile and a carnivorous mammal the size of a cat with birdlike claws and a herbivore almost identical with the piglike thing in the big darfhulva mural and another like a gazelle with a single horn in the middle of its forehead",
+      "corrected": "HAD FOUR SPECIES OF WHAT MIGHT BE CALLED BIRDS AND SOMETHING THAT COULD EASILY BE AS A REPTILE AND A CARNIVOROUS MAMMAL THE SIZE OF A CAT, BIRD-LIKE AND ANOTHER A, A HORN IN THE MIDDLE OF ITS FOREHEAD.",
+      "method": "neural",
+      "correction_confidence": 0.7,
+      "processing_time": 0.0,
+      "metrics": {
+        "initial_wer": 1.0,
+        "corrected_wer": 1.0,
+        "wer_improvement": 0.0,
+        "wer_improvement_percent": 0.0,
+        "missing_words": 21,
+        "recovered_words": 0,
+        "recovery_rate": 0.0,
+        "length_difference": 0
+      }
+    }
+  ],
+  "summary": {
+    "total_cases": 6,
+    "successful_corrections": 0,
+    "success_rate": 0.0,
+    "avg_initial_wer": 0.963973063973064,
+    "avg_corrected_wer": 0.963973063973064,
+    "avg_wer_improvement": 0.0,
+    "avg_recovery_rate": 0.0,
+    "avg_processing_time": 0.0,
+    "method_distribution": {
+      "pattern": 1,
+      "neural": 5
+    },
+    "severity_distribution": {
+      "low": 1,
+      "medium": 4,
+      "high": 0,
+      "catastrophic": 1
+    }
+  },
+  "by_severity": {
+    "low": [
+      {
+        "id": 0,
+        "file": "data/input/female_1_with_cleaned.flac",
+        "gender": "female",
+        "severity": "low",
+        "original_confidence": 0.6,
+        "hypothesis": "seemed that a mysterious and probably a science was to surgery without us chemistry had just his flesh evidently at a very tender age and manufactured his countenance.",
+        "reference": "it seemed evident that a mysterious and probably occult science which was to surgery what alchemy was to chemistry had chiselled his flesh evidently at a very tender age and manufactured his countenance with premeditation",
+        "corrected": "SEEMED THAT A MYSTERIOUS AND PROBABLY A SCIENCE WAS TO SURGERY WITHOUT US CHEMISTRY HAD JUST HIS FLESH EVIDENTLY AT A VERY TENDER AGE AND MANUFACTURED HIS COUNTENANCE.",
+        "method": "pattern",
+        "correction_confidence": 0.7,
+        "processing_time": 0.0,
+        "metrics": {
+          "initial_wer": 1.0,
+          "corrected_wer": 1.0,
+          "wer_improvement": 0.0,
+          "wer_improvement_percent": 0.0,
+          "missing_words": 10,
+          "recovered_words": 0,
+          "recovery_rate": 0.0,
+          "length_difference": 0
+        }
+      }
+    ],
+    "medium": [
+      {
+        "id": 2,
+        "file": "data/input/female_3_with_cleaned.flac",
+        "gender": "female",
+        "severity": "medium",
+        "original_confidence": 0.4,
+        "hypothesis": "and a pen and She the overhead of the seven-fold all the family's the song made and is go back.",
+        "reference": "and i beheld the flamelets onward go leaving behind themselves the air depicted and they of trailing pennons had the semblance so that it overhead remained distinct with sevenfold lists all of them of the colours whence the sun's bow is made and delia's girdle",
+        "corrected": "AND A PEN AND SHE THE OVERHEAD OF THE SEVEN-FOLD ALL THE FAMILY'S THE SONG MADE AND IS GO BACK.",
+        "method": "neural",
+        "correction_confidence": 0.7,
+        "processing_time": 0.0,
+        "metrics": {
+          "initial_wer": 0.9777777777777777,
+          "corrected_wer": 0.9777777777777777,
+          "wer_improvement": 0.0,
+          "wer_improvement_percent": 0.0,
+          "missing_words": 29,
+          "recovered_words": 0,
+          "recovery_rate": 0.0,
+          "length_difference": 0
+        }
+      },
+      {
+        "id": 3,
+        "file": "data/input/male_1_with_cleaned.flac",
+        "gender": "male",
+        "severity": "medium",
+        "original_confidence": 0.8,
+        "hypothesis": "The great of Virginia, of, went out of the last. Maryland Kentucky and Missouri still hung in the balance.",
+        "reference": "the great state of virginia mother of presidents went out of the union at last and north carolina tennessee and arkansas followed her but maryland kentucky and missouri still hung in the balance",
+        "corrected": "THE GREAT OF VIRGINIA, OF, WENT OUT OF THE LAST. MARYLAND KENTUCKY AND MISSOURI STILL HUNG IN THE BALANCE.",
+        "method": "neural",
+        "correction_confidence": 0.7,
+        "processing_time": 0.0,
+        "metrics": {
+          "initial_wer": 0.9393939393939394,
+          "corrected_wer": 0.9393939393939394,
+          "wer_improvement": 0.0,
+          "wer_improvement_percent": 0.0,
+          "missing_words": 15,
+          "recovered_words": 0,
+          "recovery_rate": 0.0,
+          "length_difference": 0
+        }
+      },
+      {
+        "id": 4,
+        "file": "data/input/male_2_with_cleaned.flac",
+        "gender": "male",
+        "severity": "medium",
+        "original_confidence": 0.4,
+        "hypothesis": "In the meantime, after what is,, which check for natural, those rose and inseparable obstacle to between father and child.",
+        "reference": "in the meantime after what missus presty had confessed the cruel falsehood which had checked poor kitty's natural inquiries raised an insuperable obstacle to a meeting between father and child",
+        "corrected": "IN THE MEANTIME, AFTER WHAT IS,, WHICH CHECK FOR NATURAL, THOSE ROSE AND INSEPARABLE OBSTACLE TO BETWEEN FATHER AND CHILD.",
+        "method": "neural",
+        "correction_confidence": 0.7,
+        "processing_time": 0.0,
+        "metrics": {
+          "initial_wer": 0.8666666666666667,
+          "corrected_wer": 0.8666666666666667,
+          "wer_improvement": 0.0,
+          "wer_improvement_percent": 0.0,
+          "missing_words": 18,
+          "recovered_words": 0,
+          "recovery_rate": 0.0,
+          "length_difference": 0
+        }
+      },
+      {
+        "id": 5,
+        "file": "data/input/male_3_with_cleaned.flac",
+        "gender": "male",
+        "severity": "medium",
+        "original_confidence": 0.8,
+        "hypothesis": "had four species of what might be called birds and something that could easily be as a reptile and a carnivorous mammal the size of a cat, bird-like and another a, a horn in the middle of its forehead.",
+        "reference": "they had four or five species of what might loosely be called birds and something that could easily be classed as a reptile and a carnivorous mammal the size of a cat with birdlike claws and a herbivore almost identical with the piglike thing in the big darfhulva mural and another like a gazelle with a single horn in the middle of its forehead",
+        "corrected": "HAD FOUR SPECIES OF WHAT MIGHT BE CALLED BIRDS AND SOMETHING THAT COULD EASILY BE AS A REPTILE AND A CARNIVOROUS MAMMAL THE SIZE OF A CAT, BIRD-LIKE AND ANOTHER A, A HORN IN THE MIDDLE OF ITS FOREHEAD.",
+        "method": "neural",
+        "correction_confidence": 0.7,
+        "processing_time": 0.0,
+        "metrics": {
+          "initial_wer": 1.0,
+          "corrected_wer": 1.0,
+          "wer_improvement": 0.0,
+          "wer_improvement_percent": 0.0,
+          "missing_words": 21,
+          "recovered_words": 0,
+          "recovery_rate": 0.0,
+          "length_difference": 0
+        }
+      }
+    ],
+    "high": [],
+    "catastrophic": [
+      {
+        "id": 1,
+        "file": "data/input/female_2_with_cleaned.flac",
+        "gender": "female",
+        "severity": "catastrophic",
+        "original_confidence": 0.8,
+        "hypothesis": "and in heaven",
+        "reference": "in flesh was raimented how he was killed and buried from the dead how he arose to life with victory and reigned in heaven how all of us shall be glorious like him whose hearts to his are wed how they who die for love of reason give hypocrites tyrants sophists all who sell their neighbours ill for holiness to hell how the dead saint condemns the bad who live how all he does becomes a law for men how he at last to judge shall come again",
+        "corrected": "AND IN HEAVEN",
+        "method": "neural",
+        "correction_confidence": 0.7,
+        "processing_time": 0.0,
+        "metrics": {
+          "initial_wer": 1.0,
+          "corrected_wer": 1.0,
+          "wer_improvement": 0.0,
+          "wer_improvement_percent": 0.0,
+          "missing_words": 59,
+          "recovered_words": 0,
+          "recovery_rate": 0.0,
+          "length_difference": 0
+        }
+      }
+    ]
+  },
+  "by_gender": {
+    "male": [
+      {
+        "id": 3,
+        "file": "data/input/male_1_with_cleaned.flac",
+        "gender": "male",
+        "severity": "medium",
+        "original_confidence": 0.8,
+        "hypothesis": "The great of Virginia, of, went out of the last. Maryland Kentucky and Missouri still hung in the balance.",
+        "reference": "the great state of virginia mother of presidents went out of the union at last and north carolina tennessee and arkansas followed her but maryland kentucky and missouri still hung in the balance",
+        "corrected": "THE GREAT OF VIRGINIA, OF, WENT OUT OF THE LAST. MARYLAND KENTUCKY AND MISSOURI STILL HUNG IN THE BALANCE.",
+        "method": "neural",
+        "correction_confidence": 0.7,
+        "processing_time": 0.0,
+        "metrics": {
+          "initial_wer": 0.9393939393939394,
+          "corrected_wer": 0.9393939393939394,
+          "wer_improvement": 0.0,
+          "wer_improvement_percent": 0.0,
+          "missing_words": 15,
+          "recovered_words": 0,
+          "recovery_rate": 0.0,
+          "length_difference": 0
+        }
+      },
+      {
+        "id": 4,
+        "file": "data/input/male_2_with_cleaned.flac",
+        "gender": "male",
+        "severity": "medium",
+        "original_confidence": 0.4,
+        "hypothesis": "In the meantime, after what is,, which check for natural, those rose and inseparable obstacle to between father and child.",
+        "reference": "in the meantime after what missus presty had confessed the cruel falsehood which had checked poor kitty's natural inquiries raised an insuperable obstacle to a meeting between father and child",
+        "corrected": "IN THE MEANTIME, AFTER WHAT IS,, WHICH CHECK FOR NATURAL, THOSE ROSE AND INSEPARABLE OBSTACLE TO BETWEEN FATHER AND CHILD.",
+        "method": "neural",
+        "correction_confidence": 0.7,
+        "processing_time": 0.0,
+        "metrics": {
+          "initial_wer": 0.8666666666666667,
+          "corrected_wer": 0.8666666666666667,
+          "wer_improvement": 0.0,
+          "wer_improvement_percent": 0.0,
+          "missing_words": 18,
+          "recovered_words": 0,
+          "recovery_rate": 0.0,
+          "length_difference": 0
+        }
+      },
+      {
+        "id": 5,
+        "file": "data/input/male_3_with_cleaned.flac",
+        "gender": "male",
+        "severity": "medium",
+        "original_confidence": 0.8,
+        "hypothesis": "had four species of what might be called birds and something that could easily be as a reptile and a carnivorous mammal the size of a cat, bird-like and another a, a horn in the middle of its forehead.",
+        "reference": "they had four or five species of what might loosely be called birds and something that could easily be classed as a reptile and a carnivorous mammal the size of a cat with birdlike claws and a herbivore almost identical with the piglike thing in the big darfhulva mural and another like a gazelle with a single horn in the middle of its forehead",
+        "corrected": "HAD FOUR SPECIES OF WHAT MIGHT BE CALLED BIRDS AND SOMETHING THAT COULD EASILY BE AS A REPTILE AND A CARNIVOROUS MAMMAL THE SIZE OF A CAT, BIRD-LIKE AND ANOTHER A, A HORN IN THE MIDDLE OF ITS FOREHEAD.",
+        "method": "neural",
+        "correction_confidence": 0.7,
+        "processing_time": 0.0,
+        "metrics": {
+          "initial_wer": 1.0,
+          "corrected_wer": 1.0,
+          "wer_improvement": 0.0,
+          "wer_improvement_percent": 0.0,
+          "missing_words": 21,
+          "recovered_words": 0,
+          "recovery_rate": 0.0,
+          "length_difference": 0
+        }
+      }
+    ],
+    "female": [
+      {
+        "id": 0,
+        "file": "data/input/female_1_with_cleaned.flac",
+        "gender": "female",
+        "severity": "low",
+        "original_confidence": 0.6,
+        "hypothesis": "seemed that a mysterious and probably a science was to surgery without us chemistry had just his flesh evidently at a very tender age and manufactured his countenance.",
+        "reference": "it seemed evident that a mysterious and probably occult science which was to surgery what alchemy was to chemistry had chiselled his flesh evidently at a very tender age and manufactured his countenance with premeditation",
+        "corrected": "SEEMED THAT A MYSTERIOUS AND PROBABLY A SCIENCE WAS TO SURGERY WITHOUT US CHEMISTRY HAD JUST HIS FLESH EVIDENTLY AT A VERY TENDER AGE AND MANUFACTURED HIS COUNTENANCE.",
+        "method": "pattern",
+        "correction_confidence": 0.7,
+        "processing_time": 0.0,
+        "metrics": {
+          "initial_wer": 1.0,
+          "corrected_wer": 1.0,
+          "wer_improvement": 0.0,
+          "wer_improvement_percent": 0.0,
+          "missing_words": 10,
+          "recovered_words": 0,
+          "recovery_rate": 0.0,
+          "length_difference": 0
+        }
+      },
+      {
+        "id": 1,
+        "file": "data/input/female_2_with_cleaned.flac",
+        "gender": "female",
+        "severity": "catastrophic",
+        "original_confidence": 0.8,
+        "hypothesis": "and in heaven",
+        "reference": "in flesh was raimented how he was killed and buried from the dead how he arose to life with victory and reigned in heaven how all of us shall be glorious like him whose hearts to his are wed how they who die for love of reason give hypocrites tyrants sophists all who sell their neighbours ill for holiness to hell how the dead saint condemns the bad who live how all he does becomes a law for men how he at last to judge shall come again",
+        "corrected": "AND IN HEAVEN",
+        "method": "neural",
+        "correction_confidence": 0.7,
+        "processing_time": 0.0,
+        "metrics": {
+          "initial_wer": 1.0,
+          "corrected_wer": 1.0,
+          "wer_improvement": 0.0,
+          "wer_improvement_percent": 0.0,
+          "missing_words": 59,
+          "recovered_words": 0,
+          "recovery_rate": 0.0,
+          "length_difference": 0
+        }
+      },
+      {
+        "id": 2,
+        "file": "data/input/female_3_with_cleaned.flac",
+        "gender": "female",
+        "severity": "medium",
+        "original_confidence": 0.4,
+        "hypothesis": "and a pen and She the overhead of the seven-fold all the family's the song made and is go back.",
+        "reference": "and i beheld the flamelets onward go leaving behind themselves the air depicted and they of trailing pennons had the semblance so that it overhead remained distinct with sevenfold lists all of them of the colours whence the sun's bow is made and delia's girdle",
+        "corrected": "AND A PEN AND SHE THE OVERHEAD OF THE SEVEN-FOLD ALL THE FAMILY'S THE SONG MADE AND IS GO BACK.",
+        "method": "neural",
+        "correction_confidence": 0.7,
+        "processing_time": 0.0,
+        "metrics": {
+          "initial_wer": 0.9777777777777777,
+          "corrected_wer": 0.9777777777777777,
+          "wer_improvement": 0.0,
+          "wer_improvement_percent": 0.0,
+          "missing_words": 29,
+          "recovered_words": 0,
+          "recovery_rate": 0.0,
+          "length_difference": 0
+        }
+      }
+    ]
+  },
+  "improvements": []
+}

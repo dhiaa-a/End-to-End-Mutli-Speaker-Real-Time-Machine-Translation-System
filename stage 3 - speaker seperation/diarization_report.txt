@@ -1,0 +1,22 @@
+PYANNOTE SPEAKER DIARIZATION ANALYSIS
+========================================
+
+File: cleaned_audio.flac
+True Speakers: 2
+Forced Speakers: 2
+Detected Speakers: 2
+Total Speech Time: 31.67s
+Total Segments: 4
+
+Speaker Breakdown:
+  SPEAKER_01:
+    Speaking Time: 18.14s (57.3%)
+    Segments: 1
+    Avg Segment: 18.14s
+  SPEAKER_00:
+    Speaking Time: 13.53s (42.7%)
+    Segments: 3
+    Avg Segment: 4.51s
+
+----------------------------------------
+

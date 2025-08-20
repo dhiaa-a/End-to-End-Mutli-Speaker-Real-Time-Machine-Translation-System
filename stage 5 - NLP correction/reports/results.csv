@@ -1,0 +1,7 @@
+file,gender,severity,method,initial_wer,corrected_wer,wer_improvement,missing_words,recovered_words,recovery_rate,processing_time_ms,hypothesis_length,reference_length,corrected_length
+data/input/female_1_with_cleaned.flac,female,low,pattern,1.0,1.0,0.0,10,0,0.0,0.0,28,35,28
+data/input/female_2_with_cleaned.flac,female,catastrophic,neural,1.0,1.0,0.0,59,0,0.0,0.0,3,88,3
+data/input/female_3_with_cleaned.flac,female,medium,neural,0.9777777777777777,0.9777777777777777,0.0,29,0,0.0,0.0,20,45,20
+data/input/male_1_with_cleaned.flac,male,medium,neural,0.9393939393939394,0.9393939393939394,0.0,15,0,0.0,0.0,19,33,19
+data/input/male_2_with_cleaned.flac,male,medium,neural,0.8666666666666667,0.8666666666666667,0.0,18,0,0.0,0.0,20,30,20
+data/input/male_3_with_cleaned.flac,male,medium,neural,1.0,1.0,0.0,21,0,0.0,0.0,39,64,39
